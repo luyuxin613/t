@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" > <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>confirm order</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/bootstrap-select.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/cart.css">
+<!-- <link rel="stylesheet" href="css/jquery.mmenu.css"> -->
+<!-- <link rel="stylesheet" href="css/jquery.mmenu.dragopen.css"> -->
+<link rel="stylesheet" href="css/jquery.mmenu.all.css">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+<div class="overlay-full"> </div>
+<div class="check-screen">
+  <div class="visible-xs"> </div>
+  <div class="visible-sm"> </div>
+  <div class="visible-md"> </div>
+  <div class="visible-lg"> </div>
+</div>
+<div class="col-xs-12 mb-menu">
+  <div class="mb-menu-container">
+    <div class="col-xs-12 mb-top-nav">
+      <div class="col-xs-7 mb-user-bar"> <img alt="avartar" src="images/demo-data/img-1.png" /> <span>Jerry</span> </div>
+      <div class="mb-logout"> <a href="#"> Log out </a> </div>
+    </div>
+    <div class="col-xs-12 mb-menu-content">
+      <div class="mb-menu-inner">
+        <div class="mb-menu-list">
+          <ul>
+            <li class="selected"> <a href="javascript:void(0)"> <img src="images/icon/icon-overview.png"> <span>Overview</span> </a> </li>
+            <li> <a href="my-insurance-enrolled.html"> <img src="images/icon/icon-insurance.png"> <span>Insurance</span> </a> </li>
+            <li> <a href="my-wallet.html"> <img src="images/icon/icon-wallet.png"> <span>Wallet</span> </a> </li>
+            <li > <a href="account.html"> <img src="images/icon/icon-account.png"> <span>Account</span> </a> </li>
+            <li > <img src="images/icon/icon-shop.png"> </li>
+          </ul>
+        </div>
+        <div class="mb-menu-message">
+          <div class="txt-message-box">
+            <div class="txt-title"> You have <span>3</span> unread messages </div>
+            <div class="txt-message-content"> Total credits of 2000 in your account will be expired next month; </div>
+            <div class="txt-message-content"> Check the new version of benefits handbook for  2015 at your document center </div>
+            <div class="txt-message-content"> Check the new version of benefits handbook for  2015 at your document center </div>
+            <div class="txt-see-all"> <a href="#" > See all  message </a> </div>
+          </div>
+        </div>
+        <div class="mb-language-toggle"> <span>Language: <a href="my-home-CN.html"> CN </a> </span> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content-wrap-body">
+  <header>
+    <div class="container-fluid">
+      <div class="row user-options">
+        <div class="max-width-wrap">
+          <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4 ads-imgs">
+            <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs logo1-wrapper"> <a href="my-home.html"> <img alt="" class="img-responsive logo-1" src="images/home/logo/logo-smartbenefits.png" /> </a>
+              <div class="seperator"> <a href="my-home.html"> <img alt="" class="img-responsive logo-1" src="images/home/logo/logo-smartbenefits.png" /> </a> </div>
+            </div>
+            <div class="col-xs-4 visible-xs"> <a href="my-home.html"> <img alt="" class="logo-small" src="images/home/logo/logo-smartbenefit-small.png" /> </a>
+              <div class="seperator"> </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 "> <a href="my-home.html"> <img  alt="" class="logo-2" src="images/home/logo/logo-ogilvy.png" /> </a> </div>
+          </div>
+          <div class="col-xs-2 visible-xs mb-btn-icon"> <a href="#" class="mb-nav-btn"> <i class="fa fa-bars"></i> </a> </div>
+          <div class="col-sm-8 col-md-8 col-lg-8 hidden-xs top-right-section"> 
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <ul>
+              <li> <span>Language:</span>
+                <div class="languages-switch"> 
+                  <!-- <a  class="active" href="#">
+                                                <span>EN</span>
+                                            </a> --> 
+                  <a  href="shopping-center-CN.html"> <span>CN</span> </a>
+                  <div class="seperator  seperator-shopping"> </div>
+                </div>
+                <div class="shopping-cart"> <a href="shopping-cart.html"> <img  alt="" class="icon-global-cart" src="images/global/icon-global-cart.png"> <span>Shopping Cart ( <span class="txt-number-items">2</span> ) </span> </a>
+                  <div class="seperator"> </div>
+                </div>
+                
+                <!-- <img class="header-languages" src="images/icon/arrow-down.png"> --> 
+                <img src="images/home/icon-message.png" alt="message" />
+                <div class="my-message"> 3 </div>
+                <div class="txt-message-box"> <img src="images/home/icon-arrow-up.png" alt="" />
+                  <div class="txt-title"> You have <span>3</span> unread messages </div>
+                  <div class="txt-message-content"> Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus </div>
+                  <div class="txt-message-content"> Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus </div>
+                  <div class="txt-message-content"> Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus </div>
+                  <div class="txt-see-all"> <a href="#" > See all message </a> </div>
+                </div>
+              </li>
+              <li class="top-right-option"> <a href="account.html"> <img class="header-user" alt="avartar" src="images/demo-data/img-1.png" /> <span class="header-user-name">Jerry</span> </a> <a class="login-off"> <img src="images/icon/arrow-down.png"> </a>
+                <div class="login-box login-off-box top"> <span class="login-bg"></span> <a href="account.html" class="update-password"> <i class="fa fa-edit"></i>Update Password </a> <a class="logout"> <i class="fa fa-power-off"></i>Logout </a> </div>
+              </li>
+              <!-- <li>
+                                        
+                                      <img class="header-cart" src="images/icon/cart.png">
+                                      <span class="header-cart-items-number">0</span>
+                                    </li> -->
+            </ul>
+            <!-- <img src="images/demo-data/user-placeholder.jpg"> --> 
+          </div>
+          <div class="visible-xs txt-message-bar-notification"> <span>3</span> </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--shopping-cart-s-->
+  <div class="container-fluid page-shopping-cart" >
+    <div class="max-width-wrap">
+      <div class="row">
+        <div class="shopping-cart-header clearfix mt50 mb35">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="content"> <span class="complete">1</span><i class="fa fa-caret-right fa-2x  complete"></i> Select your products </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="content"> <span  class="curr">2</span><i class="fa fa-caret-right fa-2x curr Select your products"></i> submit your order </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="content"> <span>3</span><i class="fa fa-caret-right fa-2x "></i> complete </div>
+          </div>
+        </div>
+        <h2 class="text-capitalize col-xs-12 mb20" >submit your order</h2>
+        <div class="col-xs-12 plan-wrapper"> <a aria-controls="detaileInformation" aria-expanded="true" href="#ShippingInformation" data-toggle="collapse" class="plan-header"> <span class="icon"></span> <span class="txt">Shipping Information </span> </a>
+          <div id="ShippingInformation" class="detaileInformation collapse in">
+          
+          <div  class="address-wrap clearfix">  
+          <div class="radio-wrapper">
+                  <input type="radio"  class="input-radio">
+                </div>
+            <div class="addresslist col-sm-10 col-xs-10"> <strong >Jerry Xhou </strong>
+              <hr class="hidden-xs">
+              <br class="visible-xs-block"/>
+              <span> 21th Floor, The Center, 11 Chanle Road, Shanghai 200031 </span>
+              <hr class="hidden-xs">
+              <br class="visible-xs-block"/>
+              <span> 123 4567 1234</span> </div>
+     <div class="btn-group col-xs-offset-2" >
+             <a class="btn btn-default btn-edit " >修改</a>
+            <a class="btn btn-default" href="">刪除</a>
+            </div>
+            <div class="clear"></div>     
+              </div>
+
+            <div class="address-wrap clearfix"> 
+            <div class="radio-wrapper">
+              <input type="radio"   class="input-radio">
+            </div>
+            <div class="addresslist col-sm-10 col-xs-10"> <strong >Jerry Xhou </strong>
+              <hr class="hidden-xs">
+              <br class="visible-xs-block"/>
+              <span> 26th Floor, The Center, 989 Chanle Road, Shanghai 200031 </span>
+              <hr class="hidden-xs">
+              <br class="visible-xs-block"/>
+              <span> 123 4567 1234</span> </div>
+                   <div class="btn-group col-xs-offset-2" >
+             <a data-toggle="collapse" class="btn btn-default btn-edit"  >修改</a>
+            <a class="btn btn-default" href="">刪除</a>
+            </div>
+            </div>
+            <div class="btns-cart">
+              <a class="btn btn-default btns-address-add ml10"> Add+ </a>
+              <div class="addeditAddress"> 
+                <!-- form-horizontal -->
+                <form class="form-horizontal">
+                  <hr style="margin-top: 10px">
+                  <!-- form-group -->
+                  <div class="form-group ">
+                    <div class="col-xs-12 col-sm-2 text-right " ><span class="color-red">*</span> 收货人姓名 : </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4 ">
+                      <input type="text" placeholder="名字" class="form-control">
+                    </div>
+                
+                  </div>
+                  <!-- / form-group --> 
+                  <!-- form-group -->
+                  <div class="form-group ">
+                    <div class="col-xs-12 col-sm-2 text-right" ><span class="color-red">*</span> 收件地址 : </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-2 col-xs-6 ">
+                      <input type="text" placeholder="中国" class="form-control">
+                    </div>
+                    <div class="col-sm-2 col-xs-6 ">
+                      <select class="selectpicker"  data-style="btn-default" >
+                        <option>省份 </option>
+                        <option>上海</option>
+                        <option>北京</option>
+                        <option>深圳</option>
+                        <option>廣州</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-2 col-xs-6 ">
+                      <select class="selectpicker"   data-style="btn-default">
+                        <option>市</option>
+                        <option>上海</option>
+                        <option>北京</option>
+                        <option>深圳</option>
+                        <option>廣州</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-2 col-xs-6 ">
+                      <select  class="selectpicker"   data-style="btn-default">
+                        <option>区/县</option>
+                        <option>上海</option>
+                        <option>北京</option>
+                        <option>深圳</option>
+                        <option>廣州</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!-- / form-group --> 
+                  <!-- form-group -->
+                  <div class="form-group ">
+                    <div class="col-sm-2 text-right hidden-xs" ></div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-md-8 col-sm-7 col-xs-12 ">
+                      <input type="text" class="form-control"  placeholder="详细地址">
+                    </div>
+                  </div>
+                  <!-- / form-group --> 
+                  <!-- form-group -->
+                  <div class="form-group ">
+                    <div class="col-sm-2 col-xs-12  text-right" ><span class="color-red">*</span> 手机号码 : </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-4 col-xs-8 ">
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>
+                  <!-- / form-group --> 
+                  <!-- form-group -->
+                  <div class="form-group ">
+                    <div class="col-sm-2  col-xs-12 text-right" ><span style="margin-left: 10px" class="visible-xs2"></span>电子邮件 : </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-6 col-xs-12 ">
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>
+                  <!-- / form-group -->
+                  <hr>
+     
+                  <div class="col-sm-offset-2"> <a  class="btn btn-default btn-cancel"> 取消 </a> <a class="btn btn-default btn-address-sure ml10"> 确认 </a> </div>
+                </form>
+                <!-- / form-horizontal --> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 plan-wrapper"> <a aria-controls="Credits" aria-expanded="true" href="#Credits" data-toggle="collapse" class="plan-header"> <span class="icon"></span> <span class="txt">Credits </span> </a>
+          <div id="Credits" class="detaileInformation collapse in">
+            <p > Available balance <span class="availablePrice">15000</span> </p>
+            <div class="radio-wrapper">
+              <input type="radio" class="input-radio"  value="rd-btn-all" name="rd-Credits"      >
+            </div>
+            <div class="col-xs-10 col-sm-11"> Use credit to cover all </div>
+            <div class="clear"> </div>
+            <div class="radio-wrapper  mt15">
+              <input type="radio" class="input-radio "  value="rd-btn-all" name="rd-Credits">
+            </div>
+            <div class="addresslist col-sm-11 col-xs-10">
+              <label class="col-xs-12 col-sm-auto  mt11 row" for="coverMoney">Use credit to cover part, I want to spend</label>
+              <span class="col-sm-auto col-xs-12 row ">
+              <input class="form-control w130" id="coverMoney" >
+              credits</span> </div>
+          </div>
+        </div>
+        
+        <div class="col-xs-12 plan-wrapper"> <a aria-controls="InvoiceInformation" aria-expanded="true" href="#InvoiceInformation" data-toggle="collapse" class=" plan-header collapsed"> <span class="icon"></span> <span class="txt">Invoice Information </span> </a>
+          <div id="InvoiceInformation" class="detaileInformation collapse ">
+          <div class="checkbox-wrapper checkbox-2 ">
+                            <input type="checkbox"  class="input-checkbox">
+                      
+                         <div   class="needinvoice">  I need an invoice</div>
+                     
+                          </div>
+  
+            <div class="radio-wrapper">
+              <input type="radio" value="rd-btn-all"  class="input-radio">
+            </div>
+            <div class="col-xs-10 col-sm-11" > Individual </div>
+            
+            <!--   <address>
+            <input type="radio" class="radio mt11">
+            <div class="addresslist row">
+              <label class="col-xs-12 col-sm-auto">Company</label>
+              <input type="text" class="form-control  col-xs-12 col-sm-auto">
+            </div>
+            </address>--> 
+          </div>
+        </div>
+        <div class="col-xs-12 plan-wrapper"> <a class="plan-header" data-toggle="collapse" href="#ProductInformation" aria-expanded="true" aria-controls="ProductInformation"> <span class="icon"></span> <span class="txt">Product Information</span> </a>
+          <div class="detaileInformation collapse in " id="ProductInformation">
+            <table class="table shopcart1 ">
+              <thead >
+                <tr class="text-uppercase">
+                  <td class="col-xs-11  "><div class="col-xs-8 hidden-xs"> product </div>
+                    <div class="col-xs-2 hidden-xs"> price </div>
+                    <div class="col-xs-2 hidden-xs"> quantity </div>
+                    <div class="col-xs-12  visible-xs-block"> description </div></td>
+                  <!--<td class="col-xs-11 visible-xs-table-cell"></td>-->
+                  <td class="col-xs-1"><div class="col-xs-12"> amount </div></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="col-xs-1"><div class="text-capitalize col-xs-10 col-sm-8 product-details">
+                      <p class="col-xs-12"> Bailey's lover 1-pound cake+20-yuan shengbang coupon </p>
+                      <!--<p class="col-xs-12 col-sm-3 col-md-2">color:white</p>
+                    <p class="col-xs-12 col-sm-3 col-md-2">spec:spec 1</p>--> 
+                    </div>
+                    <div class="col-xs-12 col-sm-2"> <span class="visible-xs-inline-block">Price:</span>$200 </div>
+                    <div class="col-xs-12 col-sm-2"> <span class="visible-xs-inline-block">Quantity:</span> 1 </div></td>
+                  <td class="col-xs-1"><div class="col-xs-12"> $200 </div></td>
+                </tr>
+                <tr>
+                  <td class="col-xs-1"><div class="text-capitalize col-xs-10 col-sm-8 product-details">
+                      <p class="col-xs-12"> Children's oral care of teeth cleaning basic treatment plan </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-2"> <span class="visible-xs-inline-block">Price:</span>$1000 </div>
+                    <div class="col-xs-12 col-sm-2"> <span class="visible-xs-inline-block">Quantity:</span> 1 </div></td>
+                  <td class="col-xs-1"><div class="col-xs-12"> $1000 </div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-sm-offset-6  col-md-4 col-md-offset-8">
+          <dl class="text-uppercase cart-summery clearfix mb20">
+            <!--<dt class="col-xs-8 "><span>Sub TOTAL</span></dt>
+          <dd class="col-xs-4 text-right"><span>1200</span></dd>-->
+            <dt class="col-xs-8 "><span>PRODUCT TOTAL</span></dt>
+            <dd class="col-xs-4 text-right"><span>1200</span></dd>
+            <dt class="col-xs-8 "><span>SHIPPING FEE</span></dt>
+            <dd class="col-xs-4 text-right"><span>0</span></dd>
+            <dt class="col-xs-8 "><span>FINAL AMOUNT</span></dt>
+            <dd class="col-xs-4 text-right"><span>1200</span></dd>
+            <dt class="col-xs-8 "><span>CREDIT DEDUCTION</span></dt>
+            <dd class="col-xs-4 text-right"><span>1200</span></dd>
+            <dt class="col-xs-8 bg-maingray "><span>ONLINE PAYMENT METHOD</span></dt>
+            <dd class="col-xs-4 text-right bg-maingray color-purple"><span>0</span></dd>
+          </dl>
+          <a class="text-capitalize btn  btn-buynow  col-xs-12 col-sm-6 col-sm-offset-6 mb20" href="finish.html"> check out </a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--shopping-cart-e-->
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="max-width-wrap">
+        <div class="col-sm-2 col-md-2 col-lg-2 col-c hidden-xs"> <img  class="img-responsive" src="images/global/logo-global-barcode.png" /> <br>
+          <p> Find us on Wechat </p>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Insurance</h3>
+          <ul>
+            <li> <a href="#"> Overview </a> </li>
+            <li> <a href="#"> My Inusrance </a> </li>
+            <li> <a href="#"> My Wallet </a> </li>
+            <li> <a href="#"> Profile </a> </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Shopping</h3>
+          <ul>
+            <li> <a href="#"> Browse </a> </li>
+            <li> <a href="#"> My Cart </a> </li>
+            <li> <a href="#"> Wishlist </a> </li>
+            <li> <a href="#"> History </a> </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Support</h3>
+          <ul>
+            <li> <a href="#"> Survey </a> </li>
+            <li> <a href="#"> Video Tutorial </a> </li>
+            <li> <a href="#"> F.A.Q </a> </li>
+            <li> <a href="#"> Contact Us </a> </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Company</h3>
+          <ul>
+            <li> <a href="#"> About Mercer </a> </li>
+            <li> <a href="#"> Terms & Conditions </a> </li>
+            <li> <a href="#"> Copyright Policy </a> </li>
+            <li> <a href="#"> Privacy Policy </a> </li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-c hidden-xs"> <img class="img-responsive" src="images/global/logo-global-footer-right.png" /> </div>
+        <div class="col-xs-6 col-xs-offset-6 col-sm-2 col-md-2 col-lg-2 col-c col-top visible-xs"> <img class="img-responsive" src="images/global/logo-global-footer-right.png" /> </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="max-width-wrap">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c visible-xs"> Change language:<!-- <a class="active" href="#"> EN</a> --> 
+          <a href="my-home-CN.html"> CN </a> </div>
+        <br>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c"> <i class="fa fa-copyright"></i> <span>2015 Smart benefits. All right reserved.</span> </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c hidden-xs"> Change language:<!-- <a class="active" href="#"> EN</a> --> 
+          <a href="my-home-CN.html"> CN </a> </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Scroll To Top --> 
+<a href="#" class="scrollup"> <i class="fa fa-angle-up"></i> </a>
+</div>
+<script src="js/vendor/jquery.js"></script> 
+
+
+<script src="js/vendor/jquery-ui.js"></script> 
+<script src="js/vendor/jquery.placeholder.min.js"></script> 
+<script src="js/vendor/jquery.bxslider.min.js"></script> 
+<script src="js/vendor/bootstrap.min.js"></script> 
+<script src="js/vendor/jquery.selectBoxIt.min.js"></script> 
+<script src="js/vendor/highcharts.js"></script> 
+<script src="js/vendor/data.js"></script> 
+<script src="js/vendor/drilldown.js"></script> 
+<script src="js/vendor/jquery.mmenu.min.all.js"></script> 
+<script src="js/vendor/bootstrap-select.min.js"></script> 
+<script src="js/vendor/jquery.selectBoxIt.min.js"></script> 
+<script src="js/plugins.js"></script> 
+<script src="js/util.js"></script> 
+<script src="js/mercer.global.js"></script>
+<script>
+$(function(){
+	$(".detaileInformation .btns-address-add  ").click(function(){
+		$(this).parent().addClass('open');
+		$(this).parent().siblings().removeClass('open').find('.radio-wrapper').removeClass('radio-selected');
+		
+		});
+		$(".detaileInformation .btn-cancel").click(function(){
+		$(this).parents('.btns-cart').removeClass('open');
+		});
+		$('.address-wrap .radio-wrapper').click(function(){
+			$(this).parent('.address-wrap').addClass('open');
+			$(this).parent('.address-wrap').siblings().removeClass('open');
+			$(this).addClass('radio-selected');
+			$(this).parent('.address-wrap').siblings().children('.radio-wrapper').removeClass('radio-selected');
+		
+					});
+				$(".detaileInformation .btn-edit").click(function(){	
+			$('.btns-cart').addClass('open');
+				});	
+		});
+</script>
+</body>
+</html>

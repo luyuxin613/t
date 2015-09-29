@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>claim</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/cart.css">
+<link rel="stylesheet" href="css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="css/bootstrap-select.min.css">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body class="lang-cn">
+<div class="overlay-full"> </div>
+<div class="check-screen">
+  <div class="visible-xs"> </div>
+  <div class="visible-sm"> </div>
+  <div class="visible-md"> </div>
+  <div class="visible-lg"> </div>
+</div>
+<div class="col-xs-12 mb-menu">
+  <div class="mb-menu-container">
+    <div class="col-xs-12 mb-top-nav">
+      <div class="col-xs-7 mb-user-bar"> <img alt="avartar" src="images/demo-data/img-1.png" /> <span>Jerry</span> </div>
+      <div class="mb-logout"> <a href="#"> 注销 </a> </div>
+    </div>
+    <div class="col-xs-12 mb-menu-content">
+      <div class="mb-menu-inner">
+        <div class="mb-menu-list">
+          <ul>
+            <li> <a href="my-home-CN.html"> <img src="images/icon/icon-overview.png"> <span>我的主页</span></a> </li>
+            <li> <a href="shopping-center-CN.html"> <img src="images/icon/icon-shopping.png"> <span>福利商城</span> </a> </li>
+            <li class="selected"> <a href="my-insurance-not-enrolled-CN.html"> <img src="images/icon/icon-insurance.png"> <span>团险福利</span> </a> </li>
+            <li> <a href="my-wallet-CN.html"> <img src="images/icon/icon-wallet.png"> <span>我的钱包</span> </a> </li>
+            <li> <a href="account-CN.html"> <img src="images/icon/icon-account.png"> <span>个人中心</span> </a> </li>
+          </ul>
+        </div>
+        <div class="mb-menu-message">
+          <div class="txt-message-box">
+            <div class="txt-title"> You have <span>3</span> unread messages </div>
+            <div class="txt-message-content"> Total credits of 2000 in your account will be expired next month; </div>
+            <div class="txt-message-content"> Check the new version of benefits handbook for  2015 at your document center </div>
+            <div class="txt-message-content"> Check the new version of benefits handbook for  2015 at your document center </div>
+            <div class="txt-see-all"> <a href="Notifications.html" > See all  messages </a> </div>
+          </div>
+        </div>
+        <div class="mb-language-toggle"> <span>Language: <a href="claim.html"> EN </a> </span> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content-wrap-body">
+  <header>
+    <div class="container-fluid">
+      <div class="row user-options">
+        <div class="max-width-wrap">
+          <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4 ads-imgs">
+            <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs logo1-wrapper"> <a href="my-home.html"> <img class="img-responsive logo-1" src="images/home/logo/logo-smartbenefits.png" /> </a>
+              <div class="seperator"> </div>
+            </div>
+            <div class="col-xs-4 visible-xs"> <a href="my-home.html"> <img class="logo-small" src="images/home/logo/logo-smartbenefit-small.png" /> </a>
+              <div class="seperator"> </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 "> <a href="my-home.html"> <img class="logo-2" src="images/home/logo/logo-ogilvy.png" /> </a> </div>
+          </div>
+          <div class="col-xs-2 visible-xs mb-btn-icon"> <a href="#" class="mb-nav-btn"> <i class="fa fa-bars"></i> </a> </div>
+          <div class="col-sm-8 col-md-8 col-lg-8 hidden-xs top-right-section"> 
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <ul>
+              <li> <span>Language:</span>
+                <div class="languages-switch"> 
+                  <!-- <a  class="active" href="#">
+                                                    <span>EN</span>
+                                                </a> --> 
+                  <a  href="claim.html"> <span>EN</span> </a>
+                  <div class="seperator"> </div>
+                </div>
+                
+                <!-- <img class="header-languages" src="images/icon/arrow-down.png"> --> 
+                <img src="images/home/icon-message.png" alt="message" />
+                <div class="my-message"> 3 </div>
+                <div class="txt-message-box"> <img src="images/home/icon-arrow-up.png" alt="" />
+                  <div class="txt-title"> You have <span>3</span> unread messages </div>
+                  <div class="txt-message-content"> Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus </div>
+                  <div class="txt-message-content"> Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus </div>
+                  <div class="txt-message-content"> Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus </div>
+                  <div class="txt-see-all"> <a href="Notifications.html" > See all messages </a> </div>
+                </div>
+              </li>
+              <li class="top-right-option"> <a href="account.html"> <img class="header-user" alt="avartar" src="images/demo-data/img-1.png" /> <span class="header-user-name">Jerry</span> </a> <a class="login-off"> <img src="images/icon/arrow-down.png"> </a>
+                <div class="login-box login-off-box top"> <span class="login-bg"></span> <a href="account.html" class="update-password"> <i class="fa fa-edit"></i>修改密码 </a> <a class="logout"> <i class="fa fa-power-off"></i>注销 </a> </div>
+              </li>
+            </ul>
+          </div>
+          <div class="visible-xs txt-message-bar-notification"> <span>3</span> </div>
+        </div>
+      </div>
+      <div class="row top-nav hidden-xs">
+        <div class="max-width-wrap">
+          <div class="col-sm-12 col-md-12 col-lg-12 menu-wrapper">
+            <ul>
+              <li> <a href="my-home-CN.html"> <img src="images/icon/icon-overview.png"> <span>我的主页</span> </a> </li>
+              <li> <a href="my-insurance-not-enrolled-CN.html"> <img src="images/icon/icon-insurance.png"> <span>团险福利</span> </a> </li>
+              <li> <a href="my-wallet-CN.html"> <img src="images/icon/icon-wallet.png"> <span>我的钱包</span> </a> </li>
+              <li> <a href="account-CN.html"> <img src="images/icon/icon-account.png"> <span>个人中心</span> </a> </li>
+              <li class="shopping-cart"> <a href="shopping-center-CN.html"> <img src="images/icon/icon-shopping.png"> <span>福利商城</span> </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="main" class="page page-claim">
+    <div class="container-fluid">
+      <div class="row summary-bar">
+        <div class="max-width-wrap">
+          <div class="tool-bar">
+            <div class="col-xs-7 col-sm-9 col-md-9 col-lg-9">
+              <div class="mb-summary-information visible-xs">
+                <p class="txt-summary-title"> 批复津贴 </p>
+                <div class="selection-icon"> </div>
+                <p class="number"> 3750 </p>
+              </div>
+              <ul class="summary-infomation hidden-xs">
+                <li class="summary-item available-balance" data-value="5000"> <span class="title">可用津贴</span> <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="文字说明" data-html="true"></i>
+                  <p class="number"> 5000 </p>
+                </li>
+                <li class="summary-item total-amount-due" data-value="0"> <span class="title">申请津贴</span> <i class="fa fa-question-circle"  data-toggle="tooltip"  data-original-title="文字说明" data-html="true"></i>
+                  <p class="number"> 1200 </p>
+                </li>
+                <li class="summary-item remaining-balance" data-value="5000"> <span class="title ml55">批复津贴</span> <i class="fa fa-question-circle" data-toggle="tooltip"  data-original-title="文字说明" data-html="true"></i>
+                  <p class="number ml55"> 3800 </p>
+                </li>
+                    <!--<li class="summary-item remaining-balance" data-value="5000"> <span class="title ml55">体检账户</span><i class="fa fa-question-circle" data-toggle="tooltip"  data-original-title="文字说明<br/>31/12/2013" data-html="true"></i>
+                  <p class="number ml55"> 1000</p>
+                </li>-->
+                  <!--<li class="summary-item remaining-balance" data-value="5000"> <span class="title ml55">取暖账户</span><i class="fa fa-question-circle" data-toggle="tooltip"  data-original-title="文字说明<br/>31/12/2013" data-html="true"></i>
+                  <p class="number ml55"> 1000</p>
+                </li>-->
+              </ul>
+            </div>
+            <ul class="mb-summary-selection col-xs-12">
+              <li> <a class="sm-close-white" href="#"> <img src="images/icon/close-white.png"> </a> </li>
+              <li class="summary-item available-balance" data-value="5000"> <span class="title">可用津贴</span> <i class="fa fa-question-circle" data-toggle="tooltip" title="文字说明"></i>
+                <p class="number"> 5000 </p>
+              </li>
+              <li class="summary-item total-amount-due" data-value="0"> <span class="title">申请津贴</span> <i class="fa fa-question-circle" data-toggle="tooltip" title="文字说明"></i>
+                <p class="number"> 1200 </p>
+              </li>
+              <li class="summary-item remaining-balance" data-value="5000"> <span class="title ">批复津贴</span> <i class="fa fa-question-circle" data-toggle="tooltip" title="文字说明"></i>
+                <p class="number"> 3800 </p>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class=" max-width-wrap">
+        <div class="row">
+        <div class="shopping-cart-header clearfix mt50 ">
+          <!--<div class="col-xs-12 col-sm-6  col-md-3">
+            <div class="content">
+              <span >1</span><i class="fa fa-caret-right fa-2x  "></i> 申请报销
+            </div>
+          </div>-->
+          <div class="col-xs-12 col-sm-6  col-md-4">
+            <div class="content">
+              <span>1</span><i class="fa fa-caret-right fa-2x "></i> 填写报销
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6  col-md-4">
+            <div class="content">
+              <span>2</span><i class="fa fa-caret-right fa-2x "></i> 上传附件
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6  col-md-4">
+            <div class="content">
+              <span>3</span><i class="fa fa-caret-right fa-2x "></i> 提交报销
+            </div>
+          </div>
+        </div>
+        <!--<div class="col-xs-12">
+          <table class="table table-border-box  tb-allowance  mt20">
+            <thead class="hidden-xs">
+              <tr >
+        
+                <th class="col-xs-3">账户名称</th>
+                <th class="col-xs-3">可用津贴</th>
+                <th class="col-xs-3">申请津贴</th>
+                <th class="col-xs-3">批复津贴</h>
+  
+              </tr>
+            </thead>
+            <tbody>
+           <tr  >
+       
+                <td class="col-xs-3">取暖账户</td>
+                <td class="col-xs-3">1000</td>
+                <td class="col-xs-3">0</td>
+                <td class="col-xs-3">1000</td>
+
+              </tr>
+                 <tr >
+            
+                <td class="col-xs-3">体检账户</td>
+                <td class="col-xs-3">1000</td>
+                <td class="col-xs-3">0</td>
+                <td class="col-xs-3">1000</td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>--></div>
+         <div class="alert alert-warning my-insurance-enrolled-alert-warning">
+                <i class="fa fa-exclamation-triangle fa-2x"></i><span>报销窗口未开放（报销窗口已开放）</span>
+              </div>
+        <div class="mt20" > <span class=" col-sm-5 col-sm-offset-7"> <span class="col-xs-12 col-sm-6"> 获取帮助？<a href="my-home-CN.html#blocks-my-handbook" >阅读使用指南</a> </span> <a class=" btn btn-apply-rem col-xs-12 col-sm-6 view-details1 view-order-details"  >申请报销</a></span> </span> </div>
+        <div class=" select-usages">
+          <select class="selectpicker " data-style="btn-default">
+            <option>所有申请</option>
+            <option>未提交</option>
+            <option>已提交</option>
+            <option>已取消</option>
+            <option>已通过</option>
+            <option>已拒绝</option>
+            <option>已生成报表</option>
+          </select>
+          <select class="selectpicker " data-style="btn-default">
+            <option>最近1个月</option>
+            <option>最近3个月</option>
+            <option>最近6个月</option>
+          </select>
+        </div>
+        <div class="my-wallet-table">
+          <table class="table table-border-box col-xs-12">
+            <thead>
+              <tr>
+                <th class="col-xs-6 col-sm-7"> <div class="col-sm-2 hidden-xs"> 申请日期 </div>
+                  <div class="col-sm-3 hidden-xs"> 报销人 </div>
+                  <div class="col-sm-3"> 报销类型 </div>
+                  <div class="col-sm-2"> 发票日期 </div>
+                  <div class="col-sm-2"> 发票号 </div>
+                </th>
+                <th class="col-xs-6 col-sm-5">
+                 <div class="col-sm-3 "> 发票金额 </div>
+                  <div class="hidden-xs col-sm-3"> 申请金额 </div>
+                  <div class="col-sm-3"> 状态 </div>
+                  <div class="col-sm-3 operation"> 操作 </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-xs-6 col-sm-7"><div class="col-sm-3 hidden-xs"><a class="view-details view-order-details"  href="javascript:void(0)"> 07/31/2015 </a>  </div>
+                  <div class="col-sm-3 hidden-xs"> 周冲-子女 </div>
+                  <div class="col-sm-3"> 子女-子女教育 </div>
+                  <div class="col-sm-3"> 2015 </div>
+                <td class="col-xs-6 col-sm-5"><div class="col-sm-3 "> 1200 </div>
+                  <div class="hidden-xs col-sm-3"> 1200 </div>
+                  <div class="col-sm-3"> 已通过 </div>
+                  <div class="col-sm-3  "><a class="view-details view-order-details"  href="javascript:void(0)"> 复制 </a> </div></td>
+              </tr>
+              <tr>
+                <td class="col-xs-6 col-sm-7"><div class="col-sm-3 hidden-xs"> <a class=" view-details view-order-details"  href="javascript:void(0)"> 07/26/2015 </a> </div>
+                  <div class="col-sm-3 hidden-xs"> 周杰-员工 </div>
+                  <div class="col-sm-3"> 员工-运动健身 </div>
+                  <div class="col-sm-3"> 2015 </div>
+                <td class="col-xs-6 col-sm-5">
+                <div class="col-sm-3"> 1200 </div>
+                  <div class="hidden-xs col-sm-3"> 1200 </div>
+                     <div class="col-sm-3"> 已取消</div>
+                  <div class="col-sm-3 "><a class="  view-details view-order-details"  href="javascript:void(0)"> 复制 </a> </div></td>
+                  </td>
+              </tr>
+              <tr>
+                <td class="col-xs-6 col-sm-7"><div class="col-sm-3 hidden-xs"><a class=" view-details view-order-details"  href="javascript:void(0)"> 07/22/2015  </a> </div>
+                  <div class="col-sm-3 hidden-xs"> 周杰-员工 </div>
+                  <div class="col-sm-3"> 员工-个人发展 </div>
+                  <div class="col-sm-3"> 2015 </div>
+                <td class="col-xs-6 col-sm-5">
+                <div class="col-sm-3"> 800 </div>
+                  <div class="hidden-xs col-sm-3"> 800 </div>
+                     <div class="col-sm-3"> 已取消</div>
+                  <div class="col-sm-3 "><a class="  view-details view-order-details"  href="javascript:void(0)"> 复制 </a> </div></td>
+                  </td>
+              </tr>
+              <tr>
+                <td class="col-xs-6 col-sm-7"><div class="col-sm-3 hidden-xs"><a class=" view-details view-order-details"  href="javascript:void(0)"> 07/22/2015  </a> </div>
+                  <div class="col-sm-3 hidden-xs"> 周杰-员工 </div>
+                  <div class="col-sm-3"> 员工-健康关爱 </div>
+                  <div class="col-sm-3"> 2015 </div>
+                <td class="col-xs-6 col-sm-5">
+                <div class="col-sm-3"> 1000 </div>
+                  <div class="hidden-xs col-sm-3"> 1000 </div>
+                     <div class="col-sm-3"> 已拒绝</div>
+                  <div class="col-sm-3 "><a class="  view-details view-order-details"  href="javascript:void(0)"> 复制 </a> </div></td>
+                  </td>
+              </tr>
+              <tr>
+                <td class="col-xs-6 col-sm-7"><div class="col-sm-3 hidden-xs"> <a class=" view-details view-order-details"  href="javascript:void(0)"> 07/22/2015 </a>  </div>
+                  <div class="col-sm-3 hidden-xs"> 周杰-员工 </div>
+                  <div class="col-sm-3"> 员工-交通补贴 </div>
+                  <div class="col-sm-3"> 2015 </div>
+                <td class="col-xs-6 col-sm-5">
+                <div class="col-sm-3"> 800 </div>
+                  <div class="hidden-xs col-sm-3"> 800 </div>
+                     <div class="col-sm-3"> 已取消</div>
+                  <div class="col-sm-3 "><a class="  view-details view-order-details"  href="javascript:void(0)"> 复制 </a></div></td>
+                  </td>
+              </tr>
+
+              
+            </tbody>
+          </table>
+        </div>
+        <div class="my-wallet-page clearfix">
+	        <ul class="pagination pagination-lg">
+	            <li><a href="javascript:void(0)">&lt;</a></li>
+	            <li class="active"><a onclick="javascript:spendNext('1')" href="javascript:void(0)">1</a></li>
+		        <li><a onclick="javascript:spendNext('2')" href="javascript:void(0)">2</a></li>
+		        <li><a onclick="javascript:spendNext('3')" href="javascript:void(0)">3</a></li>
+		        <li><a onclick="javascript:spendNext('4')" href="javascript:void(0)">4</a></li>
+		        <li><a onclick="javascript:spendNext('5')" href="javascript:void(0)">5</a></li>
+		        <li><a onclick="javascript:spendNext('2')" href="javascript:void(0)">&gt;</a></li>
+	         </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SUMMARY BAR -->
+  <div class="main-container">
+    <div class="row">
+      <div class="max-width-wrap"> </div>
+    </div>
+  </div>
+  <!-- CONTAINER SECTION --> 
+</div>
+</div>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="max-width-wrap">
+        <div class="col-sm-2 col-md-2 col-lg-2 col-c hidden-xs"> <img  class="img-responsive" src="images/global/logo-global-barcode.png" /> <br>
+          <p> Find us on Wechat </p>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Insurance</h3>
+          <ul>
+            <li> <a href="#"> Overview </a> </li>
+            <li> <a href="#"> My Inusrance </a> </li>
+            <li> <a href="#"> My Wallet </a> </li>
+            <li> <a href="#"> Profile </a> </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Shopping</h3>
+          <ul>
+            <li> <a href="#"> Browse </a> </li>
+            <li> <a href="#"> My Cart </a> </li>
+            <li> <a href="#"> Wishlist </a> </li>
+            <li> <a href="#"> History </a> </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Support</h3>
+          <ul>
+            <li> <a href="#"> Survey </a> </li>
+            <li> <a href="#"> Video Tutorial </a> </li>
+            <li> <a href="#"> F.A.Q </a> </li>
+            <li> <a href="#"> Contact Us </a> </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Company</h3>
+          <ul>
+            <li> <a href="#"> About Mercer </a> </li>
+            <li> <a href="#"> Terms & Conditions </a> </li>
+            <li> <a href="#"> Copyright Policy </a> </li>
+            <li> <a href="#"> Privacy Policy </a> </li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-c hidden-xs"> <img class="img-responsive" src="images/global/logo-global-footer-right.png" /> </div>
+        <div class="col-xs-6 col-xs-offset-6 col-sm-2 col-md-2 col-lg-2 col-c col-top visible-xs"> <img class="img-responsive" src="images/global/logo-global-footer-right.png" /> </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="max-width-wrap">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c visible-xs"> Change language:<!-- <a class="active" href="#"> EN</a> --> 
+          <a href="claim-CN.html"> CN </a> </div>
+        <br>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c"> <i class="fa fa-copyright"></i> <span>2015 Smart benefits. All right reserved.</span> </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c hidden-xs"> Change language:<!-- <a class="active" href="#"> EN</a> --> 
+          <a href="claim-CN.html"> CN </a> </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="plan-details-page order-details-page">
+  <div class="container">
+    <div class="main-container">
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inner-plan-details">
+            <div class="top-summary-warp-mb">
+              <div class="row section-heading"> <a href="" class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pd-close"> <img src="images/icon/close-grey.png"> </a> </div>
+            </div>
+            <div class="">
+              <h2 class="text-capitalize col-xs-6 order-details-title col-sm-3 col-md-2">报销详情</h2>
+              <div class="operateBtns list-inline col-xs-6 col-sm-6 col-md-4 col-lg-4 visible-lg visible-md"> <a class="p_print" href="#"> <img src="images/icon/print-icon.png"> 打印 </a> </div>
+              <!--订单信息-->
+              <div class="col-xs-12 plan-wrapper"> 
+              <a class="plan-header" data-toggle="collapse" href="#OrderInformation" aria-expanded="true"> <span class="icon"></span> <span class="txt">申请信息</span> </a>
+                <div class="order-information collapse in" id="OrderInformation" aria-expanded="true" >
+                  <table class="order-details-table">
+                    <tbody>
+                     <tr>
+                        <td class="col-xs-4 col-sm-2 ">申请编号</td>
+                        <td class="col-xs-8 col-sm-2 ">1234566</td>
+                        <td class="col-xs-4 col-sm-2 ">申请日期</td>
+                        <td class="col-xs-8 col-sm-2 ">07/26/2015</td>
+                      </tr>
+                 
+                  
+                      <tr>
+                        <td class="col-xs-4 col-sm-2 ">报销人</td>
+                        <td class="col-xs-8 col-sm-4 ">周杰-员工</td>
+               
+                        <td class="col-xs-4 col-sm-2 ">报销类型</td>
+                        <td class="col-xs-8 col-sm-4 "  colspan="3">员工-运动健身</td>
+                      </tr>
+                          <tr>
+                        <td class="col-xs-4 col-sm-2 ">发票日期</td>
+                        <td class="col-xs-8 col-sm-4 ">07/11/2015</td>
+                        <td class="col-xs-4 col-sm-2 ">发票号</td>
+                        <td class="col-xs-8 col-sm-4 ">1234568</td>
+                          </tr>
+                      <tr>
+                        <td class="col-xs-4 col-sm-2 ">发票金额</td>
+                        <td class="col-xs-8 col-sm-4 ">1200</td>
+                    
+                        <td class="col-xs-4 col-sm-2 ">申请金额</td>
+                        <td class="col-xs-8 col-sm-4 ">1200</td>
+                          </tr>
+                    
+                       <tr> 
+                        <td class="col-xs-4 col-sm-2 ">附件下载</td>
+                        <td class="col-xs-8 col-sm-4 ">发票.jpg<i onclick="downLoadFile('51')" class="fa fa-download">
+                            </i> </td>                                                   
+                         </tr>
+                          <tr> 
+                        <td class="col-xs-4 col-sm-2 ">备注</td>
+                        <td class="col-xs-8 col-sm-4 "><textarea class="col-xs-12"></textarea></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                </div>
+                <div class="col-xs-12 plan-wrapper">
+                <a aria-expanded="false" href="#auditinformation" data-toggle="collapse" class="plan-header collapsed"> <span class="icon"></span> <span class="txt">审核信息</span> </a>
+                <div id="auditinformation" aria-expanded="false"  class="order-information collapse">
+                <table class="order-details-table">
+                    <tbody>
+                      <tr>
+                        <td class="col-xs-4 col-sm-2 ">审核人</td>
+                        <td class="col-xs-8 col-sm-4 "></td>
+                  
+                        <td class="col-xs-4 col-sm-2 ">审核时间</td>
+                        <td class="col-xs-8 col-sm-4 "></td>
+                      </tr>
+                        <tr>
+                        <td class="col-xs-4 col-sm-2 ">审核状态</td>
+                        <td class="col-xs-8 col-sm-4 "  colspan="3"></td>
+                         </tr>
+                           <tr> 
+                        <td class="col-xs-4 col-sm-2 ">备注</td>
+                        <td class="col-xs-8 col-sm-4 "><textarea class="col-xs-12"></textarea></td>
+                      </tr>
+                     </tbody>
+                     </table>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="plan-details-page1 order-details-page plan-details-page">
+  <div class="container">
+    <div class="main-container">
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inner-plan-details">
+            <div class="top-summary-warp-mb">
+              <div class="row section-heading"> <a href="" class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pd-close"> <img src="images/icon/close-grey.png"> </a> </div>
+            </div>
+            <div class="">
+              <h2 class="text-capitalize col-xs-6 order-details-title col-sm-3 col-md-2">报销详情</h2>
+              <div class="operateBtns list-inline col-xs-6 col-sm-6 col-md-4 col-lg-4 visible-lg visible-md"> <a class="p_print" href="#"> <img src="images/icon/print-icon.png"> 打印 </a> </div>
+              <!--订单信息-->
+              <div class="col-xs-12 plan-wrapper"> 
+              <a class="plan-header" data-toggle="collapse" href="#OrderInformation" aria-expanded="true"> <span class="icon"></span> <span class="txt">申请信息</span> </a>
+                <div class="order-information collapse in" id="OrderInformation" aria-expanded="true" >
+                  <table class="order-details-table">
+                    <tbody>
+                     <tr>
+                        <td class="col-xs-4 col-sm-2 ">申请编号</td>
+                        <td class="col-xs-8 col-sm-2 "><input class="form-control" placeholder="21992234"></td>
+                        <td class="col-xs-4 col-sm-2 ">申请日期</td>
+                        <td class="col-xs-8 col-sm-2 "><input class="form-control" placeholder="08/04/2015"></td>
+                      </tr>
+                 
+                  
+                      <tr>
+                        <td class="col-xs-4 col-sm-2 ">报销人</td>
+                        <td class="col-xs-8 col-sm-4 ">
+                        <div class=" select-usages">
+          					<select id="preson" class="selectpicker " data-style="btn-default">
+            				<!-- <option>周杰-员工</option>
+            				<option>周冲-子女</option> -->
+          					</select>
+        				</div></td>
+               
+                        <td class="col-xs-4 col-sm-2 ">报销类型</td>
+                        <td class="col-xs-8 col-sm-4 "><div class=" select-usages">
+          					<select id="typeID" class="selectpicker " data-style="btn-default">
+            				<!-- <option>员工-交通补贴</option>
+                            <option>员工-运动健身</option>
+                            <option>员工-个人发展</option>
+                            <option>员工-健康关爱</option>
+            				<option>子女-子女教育</option> -->
+          					</select>
+        				</div></td>
+                      </tr>         
+                         <tr>
+                        <td class="col-xs-4 col-sm-2 ">发票日期</td>
+                        <td class="col-xs-8 col-sm-4 "><input class="form-control" placeholder="请输入发票日期"></td>
+                        <td class="col-xs-4 col-sm-2 ">发票号</td>
+                        <td class="col-xs-8 col-sm-4 "><input class="form-control" placeholder="请输入发票号"></td>
+                          </tr>
+                      <tr>
+                        <td class="col-xs-4 col-sm-2 ">发票金额</td>
+                        <td class="col-xs-8 col-sm-4 "><input class="form-control" placeholder="请输入发票金额"></td>
+                    
+                        <td class="col-xs-4 col-sm-2 ">申请金额</td>
+                        <td class="col-xs-8 col-sm-4 "><input class="form-control" placeholder="请输入申请金额"></td>
+                          </tr>
+                    
+                       <tr> 
+                        <td class="col-xs-4 col-sm-2 ">附件上传</td>
+                        <td class="col-xs-8 col-sm-4 "><i onclick="upLoadFile('51')" class="fa fa-upload">
+                            </i> </td>                                                   
+                         </tr>
+                          <tr> 
+                        <td class="col-xs-4 col-sm-2 ">备注</td>
+                        <td class="col-xs-8 col-sm-4 "><textarea class="col-xs-12"></textarea></td>
+                      </tr> 
+                    </tbody>
+                  </table>
+                   <div class=" checkout-btn-section submit">
+				   <a class="btn btn-check-out pull-left" href="claim-CN-save.html">
+                  保存
+                  </a>
+				  <a class="btn btn-check-out pull-right" href="claim-CN-after.html">
+                  提交
+                  </a>
+				  </div>
+				 
+                </div>
+                <!--<div class="col-xs-12 plan-wrapper">
+                <a aria-expanded="false" href="#auditinformation" data-toggle="collapse" class="plan-header collapsed"> <span class="icon"></span> <span class="txt">审核信息</span> </a>
+                <div id="auditinformation" aria-expanded="false"  class="order-information collapse">
+                <table class="order-details-table">
+                    <tbody>
+                      <tr>
+                        <td class="col-xs-4 col-sm-2 ">审核人</td>
+                        <td class="col-xs-8 col-sm-4 ">陈明</td>
+                  
+                        <td class="col-xs-4 col-sm-2 ">审核时间</td>
+                        <td class="col-xs-8 col-sm-4 ">07/12/2015</td>
+                      </tr>
+                        <tr>
+                        <td class="col-xs-4 col-sm-2 ">审核状态</td>
+                        <td class="col-xs-8 col-sm-4 "  colspan="3">已通过</td>
+                         </tr>
+                           <tr> 
+                        <td class="col-xs-4 col-sm-2 ">备注</td>
+                        <td class="col-xs-8 col-sm-4 "><textarea class="col-xs-12"></textarea></td>
+                      </tr>
+                     </tbody>
+                     </table>
+                      </div>
+                </div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scroll To Top --> 
+  <a href="#" class="scrollup"> <i class="fa fa-angle-up"></i> </a> </div>
+<script src="js/vendor/jquery.js"></script> 
+<script src="js/vendor/jquery-ui.js"></script> 
+<script src="js/vendor/jquery.placeholder.min.js"></script> 
+<script src="js/vendor/jquery.bxslider.min.js"></script> 
+<script src="js/vendor/bootstrap.min.js"></script> 
+<script src="js/vendor/jquery.selectBoxIt.min.js"></script> 
+<script src="js/vendor/bootstrap-select.min.js"></script> 
+<script src="js/plugins.js"></script> 
+<script src="js/util.js"></script> 
+<script src="js/mercer.global.js"></script> 
+<script src="js/vendor/jquery.mmenu.min.all.js"></script> 
+<script>
+$(function(){
+	$(".menu-wrapper li").click(function(){
+		var st=$(this).children("span").text();
+		
+		});
+		});</script>
+  <script type="text/javascript">
+    $(function(){
+		$.getJSON("p.json",function(data){
+			var persons = data;
+			var htmlPerson = "";
+			for (var i=0; i < persons.length; i++) {
+				var p = persons[i]["p"];
+				htmlPerson += "<option value='" + i + "'>" + p + "</option>";
+			}
+			$(".order-details-table #preson").html(htmlPerson).selectpicker('refresh').selectpicker('render');
+			
+			$(".order-details-table #preson").bind("change", function() {
+				var index = $(this).get(0)["value"];
+				var c = persons[index]["c"];
+				var htmlType = "";
+				for (var k=0; k < c.length; k++) {
+					htmlType += "<option value='" + k + "'>" + c[k]["ct"] + "</option>";
+				}
+				$(".order-details-table #typeID").html(htmlType).selectpicker('refresh').selectpicker('render');
+			});
+			
+			$(".order-details-table #preson").change();
+        });
+    });
+    </script>
+</body>
+</html>

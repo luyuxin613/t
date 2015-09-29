@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>我的钱包</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="css/bootstrap-select.min.css">
+<link rel="stylesheet" href="css/main.css">
+
+<!--<link rel="stylesheet" href="css/style.css">-->
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body class="lang-cn">
+<div class="overlay-full">
+</div>
+<div class="check-screen">
+  <div class="visible-xs">
+  </div>
+  <div class="visible-sm">
+  </div>
+  <div class="visible-md">
+  </div>
+  <div class="visible-lg">
+  </div>
+</div>
+<div class="col-xs-12 mb-menu">
+  <div class="mb-menu-container">
+    <div class="col-xs-12 mb-top-nav">
+      <div class="col-xs-7 mb-user-bar">
+        <a href="account.html">
+        <img alt="avartar" src="images/demo-data/img-1.png" />
+        <span>Jerry</span>
+        </a>
+      </div>
+      <div class="mb-logout">
+        <a href="#">
+        注销
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-12 mb-menu-content">
+      <div class="mb-menu-inner">
+        <div class="mb-menu-list">
+          <ul>
+            <li>
+              <a href="my-home-enrolled-CN.html">
+              <img src="images/icon/icon-overview.png">
+              <span>我的主页</span>
+              </a>
+            </li>
+            <li>
+              <a href="shopping-center-CN.html">
+              <img src="images/icon/icon-shopping.png">
+              <span>福利商城</span>
+              </a>
+            </li>
+            <li>
+              <a href="my-insurance-not-enrolled-CN.html">
+              <img src="images/icon/icon-insurance.png">
+              <span>团险福利</span>
+              </a>
+            </li>
+            <li class="selected">
+              <a href="my-wallet-CN.html">
+              <img src="images/icon/icon-wallet.png">
+              <span>我的钱包</span>
+              </a>
+            </li>
+            <li>
+              <a href="account-CN.html">
+              <img src="images/icon/icon-account.png">
+              <span>个人中心</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mb-menu-message">
+          <div class="txt-message-box">
+            <div class="txt-title">
+              You have <span>3</span> unread messages
+            </div>
+            <div class="txt-message-content">
+              Total credits of 2000 in your account will be expired next month;
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-see-all">
+              <a href="Notifications-CN.html" >
+              查看所有信息
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mb-language-toggle">
+          <span>Language:
+          <a href="my-wallet.html">
+          EN
+          </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content-wrap-body">
+  <header>
+    <div class="container-fluid">
+      <div class="row user-options">
+        <div class="max-width-wrap">
+          <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4 ads-imgs">
+            <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs logo1-wrapper">
+              <a href="my-home-CN.html">
+              <img class="img-responsive logo-1" src="images/home/logo/logo-smartbenefits.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-4 visible-xs">
+              <a href="my-home-CN.html">
+              <img class="logo-small" src="images/home/logo/logo-smartbenefit-small.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 ">
+              <a href="my-home-CN.html">
+              <img class="logo-2" src="images/home/logo/logo-ogilvy.png" />
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-2 visible-xs mb-btn-icon">
+            <a href="#" class="mb-nav-btn">
+            <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="col-sm-8 col-md-8 col-lg-8 hidden-xs top-right-section">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <ul>
+              <li>
+                <span>Language:</span>
+                <div class="languages-switch">
+                  <!-- <a  class="active" href="#">
+                                                    <span>EN</span>
+                                                </a> -->
+                  <a  href="my-wallet.html">
+                  <span>EN</span>
+                  </a>
+                  <div class="seperator">
+                  </div>
+                </div>
+                
+                <!-- <img class="header-languages" src="images/icon/arrow-down.png"> -->
+                <img src="images/home/icon-message.png" alt="message" />
+                <div class="my-message">
+                  3
+                </div>
+                <div class="txt-message-box">
+                  <img src="images/home/icon-arrow-up.png" alt="" />
+                  <div class="txt-title">
+                    You have <span>3</span> unread messages
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-see-all">
+                    <a href="Notifications-CN.html" >
+                    查看所有信息
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="top-right-option">
+                <a href="account-CN.html">
+                <img class="header-user" alt="avartar" src="images/demo-data/adult_male.png" />
+                <span class="header-user-name">Jerry</span>
+                </a>
+                <a class="login-off">
+                <img src="images/icon/arrow-down.png">
+                </a>
+                <div class="login-box login-off-box top">
+                  <span class="login-bg"></span>
+                  <a href="account-CN.html" class="update-password">
+                  <i class="fa fa-edit"></i>修改密码
+                  </a>
+                  <a href="landing-page-CN.html" class="logout">
+                  <i class="fa fa-power-off"></i>注销
+                  </a>
+                </div>
+              </li>
+              <!-- <li>
+                                        
+                                      <img class="header-cart" src="images/icon/cart.png">
+                                      <span class="header-cart-items-number">0</span>
+                                    </li> -->
+            </ul>
+            <!-- <img src="images/demo-data/user-placeholder.jpg"> -->
+          </div>
+          <div class="visible-xs txt-message-bar-notification">
+            <span>3</span>
+          </div>
+        </div>
+      </div>
+      <div class="row top-nav hidden-xs">
+        <div class="max-width-wrap">
+          <div class="col-sm-12 col-md-12 col-lg-12 menu-wrapper">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <!-- <img src="images/demo-data/nav-placeholder.jpg"> -->
+            
+            <ul>
+              <li >
+                <a href="my-home-enrolled-CN.html">
+                <img src="images/icon/icon-overview.png">
+                <span>我的主页</span>
+                </a>
+              </li>
+              <li>
+                <a href="my-insurance-not-enrolled-CN.html">
+                <img src="images/icon/icon-insurance.png">
+                <span>团险福利</span>
+                </a>
+              </li>
+              <li class="active">
+                <a href="my-wallet-CN.html">
+                <img src="images/icon/icon-wallet.png">
+                <span>我的钱包</span>
+                </a>
+              </li>
+              <li  style="position:relative">
+                <a href="account-CN.html">
+                <img src="images/icon/icon-account.png">
+                <span>个人中心</span>
+                </a>
+              </li>
+              <li class="shopping-cart" >
+                <a href="shopping-center-CN.html">
+                <img src="images/icon/icon-shopping.png">
+                <span>福利商城</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="col-sm-4 col-md-4 col-lg-4 shopping-cart">
+                                <img src="images/icon/icon-shopping.png">
+                            </div> -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="main" class="page my-wallet">
+    <div class="container-fluid">
+      <div class="row summary-bar">
+        <div class="max-width-wrap">
+          <div class="tool-bar">
+            <div class="col-xs-7 col-sm-9 col-md-9 col-lg-9">
+              <div class="mb-summary-information visible-xs">
+                <p class="txt-summary-title"> 已使用福利 </p>
+                <div class="selection-icon">
+                </div>
+                <p class="number"> 4000 </p>
+              </div>
+              <ul class="summary-infomation hidden-xs">
+                <li class="summary-item   available-balance mr30 " data-value="5000">
+                  <span class="title">可用福利</span>
+                  <!--<i title="" data-toggle="tooltip" class="fa fa-question-circle" data-html="true" data-original-title="可用注册金币总额：3000 <br>
+                Coin balance: 2000"></i>-->
+                  <p class="number"> 13300<i title="" data-toggle="tooltip" class="fa fa-exclamation-circle" data-html="true" data-original-title="弹性福利：0 <br/> 商城福利：13300  <br/> 取暖费报销：500" ></i>
+                  </p>
+                </li>
+                <li class="summary-item">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="33" 
+      aria-valuemin="0" aria-valuemax="100" style="width: 33%;">
+                      <span class="sr-only">33%</span>
+                    </div>
+                  </div>
+                  <div class="progress-data">
+                    <div class="progress-data-item total-credits">
+                      <span>已发福利总额：20000 </span>
+                    </div>
+                    <div class="progress-data-item used-credits">
+                      <i class="fa fa-stop"></i><span>已使用：6700 </span>
+                    </div>
+                    <div class="progress-data-item unused-credits">
+                      <i class="fa fa-stop"></i><span>未使用：13300</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--手机屏幕点击出现的-->
+            <div class="mb-summary-selection col-xs-12">
+              <div class="mb-summary-information visible-xs">
+                <p class="txt-summary-title"> 已使用福利 </p>
+                <div class="selection-icon-hide">
+                </div>
+                <p class="number"> 4000 </p>
+              </div>
+              <div class="summary-item">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" 
+      aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                    <span class="sr-only">40%</span>
+                  </div>
+                </div>
+                <div class="progress-data">
+                  <div class="progress-data-item total-credits">
+                    <span>福利金币总额：10000 </span>
+                  </div>
+                  <div class="progress-data-item used-credits">
+                    <i class="fa fa-stop"></i><span>已使用福利金币：4000 </span>
+                  </div>
+                  <div class="progress-data-item unused-credits">
+                    <i class="fa fa-stop"></i><span>未使用福利金币：6000</span>
+                  </div>
+                </div>
+              </div>
+              <!-- <li> <a class="sm-close-white" href="#"> <img src="images/icon/close-white.png"> </a> </li>
+              <li class="summary-item col-xs-12 col-sm-3  available-balance" data-value="5000"> <span class="title">金币总额</span>
+                <p class="number">5000</p>
+              </li>
+              <li class="summary-item col-xs-12 col-sm-9">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" 
+      aria-valuemin="0" aria-valuemax="100" style="width: 40%;"> <span class="sr-only">40%</span> </div>
+                </div>
+                <div class="progress-data">
+                  <div class="progress-data-item total-credits col-xs-12"><span>福利金币总额：10000 </span></div>
+                  <div class="progress-data-item used-credits col-xs-12"><i class="fa fa-stop"></i><span>Used Credits: 4000 </span></div>
+                  <div class="progress-data-item unused-credits col-xs-12"><i class="fa fa-stop"></i><span>Unused Credits: 6000</span></div>
+                </div>
+              </li>-->
+            </div>
+            <!--<div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 checkout-btn-section"> <a href="review-check-out.html" class="btn btn-check-out">Check out</a> </div>-->
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 summary-message">
+            <p> Great choice! Now select your insurance plans. </p>
+          </div>
+        </div>
+      </div>
+      <!-- SUMMARY BAR -->
+      <div class="main-container">
+        <div class="row my-wallet-conbg">
+          <div class="max-width-wrap">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 page-header-section">
+              <h1>我的钱包</h1>
+              <!--<div class="alert alert-success my-wallet-alert-warning">
+                <i class="fa fa-exclamation-triangle fa-2x"></i><span>1000 credits was expired on 3/12/15 and another crdits will expire on 5/12/15. Credit expirations are noted in your
+                <a class="income" href="javascript:void(0);">
+                  <u>income</u>
+                </a>
+                activity below.</span>
+              </div>-->
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <!--tab 切换-->
+              <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12 list-unstyled my-insurance-enrolled-tab">
+                <li class="active">
+                  <a class="btn" href="#消费记录" data-toggle="tab">
+                  消费记录
+                  </a>
+                </li>
+                <li>
+                  <a class="btn" href="#金币收入" data-toggle="tab">
+                  福利收入
+                  </a>
+                </li>
+              </ul>
+              <!--print pdf-->
+              <div class="operateBtns list-inline col-xs-12 col-sm-12 col-md-4 col-lg-4 visible-lg visible-md">
+                <a href="#" class="p_print">
+                <img src="images/icon/print-icon.png"> 打印
+                </a>
+                <a href="#" class="p_export_pdf">
+                <img src="images/icon/pdf-icon.png"> PDF下载
+                </a>
+              </div>
+              <div class="tab-content row">
+                <div id="消费记录" class="active tab-pane">
+                  <!--选择-->
+                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 select-box spending-select-box">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 select-usages">
+                      <select class="selectpicker" data-style="btn-default">
+                        <option>全部交易</option>
+                        <option>保险注册</option>
+                        <option>商城交易</option>
+                        <option>福利报销</option>
+                      </select>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 select-date-month">
+                      <select class="selectpicker" data-style="btn-default">
+                        <option>最近1个月</option>
+                        <option>最近3个月</option>
+                        <option>最近6个月</option>
+                        <option>最近1年</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="my-wallet-table">
+                      <table class="table table-border-box">
+                        <thead>
+                          <tr>
+                            <th class="col-xs-6 col-sm-7"> <div class="col-sm-2 hidden-xs">
+                                日期
+                              </div>
+                              <div class="col-sm-3 hidden-xs">
+                                消费类别
+                              </div>
+                              <div class="col-sm-7">
+                                详情
+                              </div>
+                            </th>
+                            <th class="col-xs-6 col-sm-5"> <div class="hidden-xs col-sm-6">
+                                支付详情
+                              </div>
+                              <div class="col-sm-6 text-right">
+                                总金额
+                              </div>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="col-xs-6 col-sm-7"><div class="col-xs-12 col-sm-2">
+                                08/14/2015
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong>福利报销</strong>
+                              </div>
+                              <div class="hidden-xs col-sm-4">
+                                报销编号：20150814001
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <a data-planname="plan-1" class="view-details view-claim" href="javascript:void(0);">
+                                查看详情<i class="fa fa-search"></i>
+                                </a>
+                              </div></td>
+                            <td class="col-xs-6 col-sm-5"><div class="hidden-xs collapse in"  >
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 credit-title">
+                                    申请金额
+                                  </div>
+                                  <div class="col-sm-6 credit-price text-right" data-amount="1200">
+                                    1200
+                                  </div>
+                                </div>
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 online-title">
+                                    批复金额
+                                  </div>
+                                  <div class="col-sm-6 online-price text-right" data-amount="1200">
+                                    1200
+                                  </div>
+                                </div>
+                              </div>
+                              <!--<div class="payment-type-row" >
+                                <div class="hidden-xs col-sm-6 amount-title">
+                                  <a class="payment-type" data-toggle="collapse" href="#payment-type-first">
+                                  总支付<i class="icon"></i>
+                                  </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 total-amount-price text-right" data-amount="1200">
+                                  <strong>1200</strong>
+                                </div>
+                              </div>--></td>
+                          </tr>
+                          <tr>
+                            <td class="col-xs-6 col-sm-7"><div class="col-xs-12 col-sm-2">
+                                05/12/2015
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong>商城交易</strong>
+                              </div>
+                              <div class="hidden-xs col-sm-4">
+                                订单号：123456789
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <a data-planname="plan-1" class="view-details view-order-details" href="javascript:void(0);">
+                                查看详情<i class="fa fa-search"></i>
+                                </a>
+                              </div></td>
+                            <td class="col-xs-6 col-sm-5"><div class="hidden-xs collapse in" id="payment-type-first">
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 credit-title">
+                                    福利消费
+                                  </div>
+                                  <div class="col-sm-6 credit-price text-right" data-amount="1200">
+                                    1200
+                                  </div>
+                                </div>
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 online-title">
+                                    在线支付
+                                  </div>
+                                  <div class="col-sm-6 online-price text-right" data-amount="0">
+                                    0
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="payment-type-row" >
+                                <div class="hidden-xs col-sm-6 amount-title">
+                                  <a class="payment-type" data-toggle="collapse" href="#payment-type-first">
+                                  总支付<i class="icon"></i>
+                                  </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 total-amount-price text-right" data-amount="1200">
+                                  <strong>1200</strong>
+                                </div>
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td class="col-xs-6 col-sm-7"><div class="col-xs-12 col-sm-2">
+                                05/11/2015
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong>保险注册</strong>
+                              </div>
+                              <div class="hidden-xs col-sm-4">
+                                升级方案1
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <a data-planname="plan-1" class="view-details" href="order-details.html">
+                                查看详情<i class="fa fa-search"></i>
+                                </a>
+                              </div></td>
+                            <td class="col-xs-6 col-sm-5"><div class="hidden-xs collapse in" id="payment-type-second">
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 credit-title">
+                                    福利消费
+                                  </div>
+                                  <div class="col-sm-6 credit-price text-right" data-amount="1500">
+                                    5000
+                                  </div>
+                                </div>
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 online-title">
+                                    工资扣缴
+                                  </div>
+                                  <div class="col-sm-6 online-price text-right" data-amount="1000">
+                                    500
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="payment-type-row" >
+                                <div class="hidden-xs col-sm-6 amount-title">
+                                  <a class="payment-type" data-toggle="collapse" href="#payment-type-second">
+                                  总支付<i class="icon"></i>
+                                  </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 total-amount-price text-right" data-amount="2500">
+                                  <strong>5500</strong>
+                                </div>
+                              </div></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div id="金币收入" class="tab-pane">
+                  <!--选择-->
+                  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 select-box income-select-box">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 select-date-year">
+                      <select class="selectpicker" data-style="btn-default">
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!--Term Life-->
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="my-wallet-table">
+                      <table class="table table-border-box">
+                        <thead>
+                          <tr>
+                            <th class="col-xs-10 col-sm-6"> <div class="col-xs-12 col-sm-3 hidden-xs">
+                                日期
+                              </div>
+                              <div class="col-xs-12 col-sm-6">
+                                类别
+                              </div>
+                              <div class="col-xs-12 col-sm-3 hidden-xs">
+                                详情
+                              </div>
+                            </th>
+                            <th class="col-xs-2 col-sm-6 text-right"><div class="col-sm-12">
+                                总支付
+                              </div></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="col-xs-12 col-sm-8"><div class="col-xs-12 col-sm-3">
+                                05/01/2015
+                              </div>
+                              <div class="col-xs-12 col-sm-6">
+                                <strong>弹性福利</strong>
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong class=" visible-xs-inline-block">Expires:</strong> 2015福利年度
+                              </div></td>
+                            <td class="col-xs-2 col-sm-4 text-right"><div class="col-sm-12">
+                                5000
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td class="col-xs-12 col-sm-8"><div class="col-xs-12 col-sm-3">
+                                05/01/2015
+                              </div>
+                              <div class="col-xs-12 col-sm-6">
+                                <strong>取暖费报销</strong>
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong class=" visible-xs-inline-block">Expires:</strong> 2015福利年度取暖费报销专款
+                              </div></td>
+                            <td class="col-xs-2 col-sm-4 text-right"><div class="col-sm-12">
+                                500
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td class="col-xs-12 col-sm-8"><div class="col-xs-12 col-sm-3">
+                                05/01/2015
+                              </div>
+                              <div class="col-xs-12 col-sm-6">
+                                <strong>商城交易</strong>
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong class=" visible-xs-inline-block">Expires:</strong> 2015福利年度
+                              </div></td>
+                            <td class="col-xs-2 col-sm-4 text-right"><div class="col-sm-12">
+                                15000
+                              </div></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--list page-->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 my-wallet-page">
+                <ul class="pagination pagination-lg">
+                  <li>
+                    <a href="javascript:void(0);">
+                    &lt;
+                    </a>
+                  </li>
+                  <li class="active">
+                    <a href="javascript:void(0);">
+                    1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                    2
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                    3
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                    4
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                    &gt;
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTAINER SECTION -->
+    </div>
+  </div>
+  <!-- order-details-page start-->
+  <div class="plan-details-page order-details-page">
+    <div class="container">
+      <div class="main-container">
+        <div class="row">
+          <div class="max-width-wrap">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inner-plan-details">
+              <div class="top-summary-warp-mb">
+                <div class="row section-heading">
+                  <a class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pd-close" href="">
+                  <img src="images/icon/close-grey.png">
+                  </a>
+                </div>
+              </div>
+              <div class="">
+                <h2 class="text-capitalize col-xs-6 order-details-title col-sm-3 col-md-2">订单详情</h2>
+                <div class="operateBtns list-inline col-xs-6 col-sm-6 col-md-4 col-lg-4 visible-lg visible-md">
+                  <a href="#" class="p_print">
+                  <img src="images/icon/print-icon.png"> 打印
+                  </a>
+                  <a href="#" class="p_export_pdf">
+                  <img src="images/icon/pdf-icon.png"> PDF下载
+                  </a>
+                </div>
+                <!--订单信息-->
+                <div class="col-xs-12 plan-wrapper">
+                  <a href="#OrderInformation" data-toggle="collapse" class="plan-header">
+                  <span class="icon"></span>
+                  <span class="txt">订单信息</span>
+                  </a>
+                  <div  id="OrderInformation" class="order-information collapse in">
+                    <table class="order-details-table">
+                      <tbody>
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">订单号</td>
+                          <td class="col-xs-8 col-sm-9 dd">123456789</td>
+                        </tr>
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">订单时间</td>
+                          <td class="col-xs-8 col-sm-9 dd"><span class="order-date">14:00, 05/12/2015</span></td>
+                        </tr>
+                        <!--<tr>
+                        <td class="col-xs-4 col-sm-3 dt">订单时间</td>
+                        <td class="col-xs-8 col-sm-9 dd">14:00</td>
+                      </tr>-->
+                        <!--<tr>
+                        <td class="col-xs-4 col-sm-3 dt">Order Status</td>
+                        <td class="col-xs-8 col-sm-9 dd">Not confirmed by vendor</td>
+                      </tr>-->
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">收货人</td>
+                          <td class="col-xs-8 col-sm-9 dd">周杰 |  上海 长乐路989号 中心大楼26层 200031  |  123 4567 1234</td>
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">物流方式</td>
+                          <td class="col-xs-8 col-sm-9 dd">无</td>
+                        </tr>
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">发票信息</td>
+                          <td class="col-xs-8 col-sm-9 dd">无</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!--Product Information-->
+                <div class="col-xs-12 plan-wrapper">
+                  <a href="#ProductInformation" data-toggle="collapse" class="plan-header">
+                  <span class="icon"></span>
+                  <span class="txt">商品信息</span>
+                  </a>
+                  <div id="ProductInformation" class="product-information collapse in">
+                    <table class="table order-details-table">
+                      <thead>
+                        <tr>
+                          <th class="col-xs-10 col-sm-11"> <div class="col-sm-8 hidden-xs">
+                              商品
+                            </div>
+                            <div class="col-sm-2  hidden-xs">
+                              单价
+                            </div>
+                            <div class="col-sm-2 hidden-xs">
+                              数量
+                            </div>
+                            <div class="col-xs-10 visible-xs">
+                              详情
+                            </div>
+                          </th>
+                          <th class="col-xs-2 col-sm-1 text-right"><div class="col-xs-12">
+                              金额
+                            </div></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td  class="col-xs-8 col-sm-11"><div class="col-sm-2 hidden-xs">
+                              <img src="images/demo-data/details_01.jpg">
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                              <p class="row"> 百利甜情人1磅蛋糕+价值20元升磅券一张 </p>
+                              <div class="row">
+                                <p class="beizhu col-sm-6"> 电子券号：XTCSM00000001</p>
+                                <p class="col-sm-6 beizhu">有效期：2015/4/20-2016/4/20</p>
+                              </div>
+                              <div class="row">
+                                <p class="beizhu col-sm-3"> 备注：</p>
+                                <textarea class="col-xs-12 col-sm-9">                      
+                 </textarea>
+                              </div>
+                            </div>
+                            <div class="row"><p class="col-xs-12 col-sm-2">
+                              <span class="visible-xs-inline-block">单价：</span> ￥200 </p>
+                            <p class="col-xs-12 col-sm-2">
+                              <span class="visible-xs-inline-block">数量：</span> 1 </p></div></td>
+                          <td class="col-xs-4 col-sm-1 text-right"><div class="col-xs-12">
+                              ￥200
+                            </div>
+                            <div class="col-xs-12 ">
+                              <a  class=" btn-cancel" >
+                              取消
+                              </a>
+                            </div>
+                            <div class="col-xs-12">
+                              已支付
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td  class="col-xs-8 col-sm-11"><div class="col-sm-2 hidden-xs">
+                              <img src="images/sc01.jpg">
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                              <p class="row"> 儿童口腔护理洁牙基本治疗套餐 </p>
+                              <div class="row">
+                                <p class="beizhu col-sm-6"> 电子券号：XTCSM00000002</p>
+                                <p class="col-sm-6 beizhu">有效期：2015/4/20-2016/5/10</p>
+                              </div>
+                              <div class="row"><p class="beizhu col-sm-3"> 备注：</p>
+                              <textarea class="col-xs-12 col-sm-9">                      
+                 </textarea></div>
+                              <!--<p>
+                              Color: White
+                            </p>
+                            <p>
+                              Spec: Spec 1
+                            </p>-->
+                            </div>
+                           <div class="row"> <p class="col-xs-12 col-sm-2">
+                              <span class="visible-xs-inline-block">单价：</span> ￥1000 </p>
+                            <p class="col-xs-12 col-sm-2">
+                              <span class="visible-xs-inline-block">数量：</span> 1 </p></div></td>
+                          <td class="col-xs-4 col-sm-1 text-right"><div class="col-xs-12">
+                              ￥1000
+                            </div>
+                            <div class="col-xs-12 ">
+                              <a  class="btn-cancel" >
+                              取消
+                              </a>
+                            </div>
+                            <div class="col-xs-12">
+                              已支付
+                            </div></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!--支付信息-->
+                <div class="col-xs-12 plan-wrapper">
+                  <a href="#PaymentInformation" data-toggle="collapse" class="plan-header">
+                  <span class="icon"></span>
+                  <span class="txt">支付信息</span>
+                  </a>
+                  <div id="PaymentInformation" class="payment-information collapse in">
+                    <table class="table order-details-table">
+                      <tbody>
+                        <tr>
+                          <td  class="col-xs-8 col-sm-3">商品总额</td>
+                          <td class="col-xs-4 col-sm-9"><strong>1200</strong></td>
+                        </tr>
+                        <tr>
+                          <td  class="col-xs-8 col-sm-3">物流费用</td>
+                          <td class="col-xs-4 col-sm-9"><strong>0</strong></td>
+                        </tr>
+                        <tr>
+                          <td  class="col-xs-8 col-sm-3">订单总额</td>
+                          <td class="col-xs-4 col-sm-9"><strong>1200</strong></td>
+                        </tr>
+                        <!--<tr>
+                        <td  class="col-xs-8 col-sm-3">COUPON DISCOUNT</td>
+                        <td class="col-xs-4 col-sm-9"><strong>20%</strong></td>
+                      </tr>-->
+                        <tr>
+                          <td  class="col-xs-8 col-sm-3">金币消费</td>
+                          <td class="col-xs-4 col-sm-9"><strong>1200</strong></td>
+                        </tr>
+                        <tr>
+                          <td  class="col-xs-8 col-sm-3">在线支付</td>
+                          <td class="col-xs-4 col-sm-9 final-amount"><strong>0</strong></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTAINER SECTION -->
+    </div>
+  </div>
+</div>
+<!-- order-details-page end-->
+<div class="plan-details-page claim-details-page">
+  <div class="container">
+    <div class="main-container">
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inner-plan-details">
+            <div class="top-summary-warp-mb">
+              <div class="row section-heading"> <a href="" class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pd-close"> <img src="images/icon/close-grey.png"> </a> </div>
+            </div>
+            <div class="">
+              <h2 class="text-capitalize col-xs-6 order-details-title col-sm-3 col-md-2">报销详情</h2>
+              <div class="operateBtns list-inline col-xs-6 col-sm-6 col-md-4 col-lg-4 visible-lg visible-md"> <a class="p_print" href="#"> <img src="images/icon/print-icon.png"> 打印 </a> </div>
+              <!--订单信息-->
+              <div class="col-xs-12 plan-wrapper"> 
+              <a class="plan-header" data-toggle="collapse" href="#OrderInformation" aria-expanded="true"> <span class="icon"></span> <span class="txt">申请信息</span> </a>
+                <div class="order-information col-xs-12 col-sm-10 collapse in" id="OrderInformation" aria-expanded="true" >
+                   
+					    <div class="col-xs-4 col-sm-2 well ">申请编号</div>
+                        <div class="col-xs-8 col-sm-4 well  ">1234567</div>
+                        <div class="col-xs-4 col-sm-2 well  ">申请日期</div>
+                        <div class="col-xs-8 col-sm-4 well  ">07/31/2015</div>
+                       
+                        <div class="col-xs-4 col-sm-2 well">报销人</div>
+                        <div class="col-xs-8 col-sm-4 well">周冲-子女</div>
+               
+                        <div class="col-xs-4 col-sm-2 well">报销类型</div>
+                        <div class="col-xs-8 col-sm-4 well" >子女-子女教育</div>
+                    
+                        <div class="col-xs-4 col-sm-2 well">福利年度</div>
+                        <div class="col-xs-8 col-sm-4 well">2015</div>
+                        <div class="col-xs-4 col-sm-2 well">申请金额</div>
+                        <div class="col-xs-8 col-sm-4 well">2600</div>
+                          
+                        <div class="col-xs-4 col-sm-2 well">发票日期</div>
+                        <div class="col-xs-8 col-sm-4 well">12/30/2013</div>
+                    
+                        <div class="col-xs-4 col-sm-2 well">发票号</div>
+                        <div class="col-xs-8 col-sm-4 well">310000xd</div>
+                         
+                        <div class="col-xs-4 col-sm-2 well">发票金额</div>
+                        <div class="col-xs-8 col-sm-10 well">￥3000.00</div>
+                          
+                        <div class="col-xs-4 col-sm-2 well">发票日期</div>
+                        <div class="col-xs-8 col-sm-4 well">12/30/2013</div>
+                    
+                        <div class="col-xs-4 col-sm-2 well">发票号</div>
+                        <div class="col-xs-8 col-sm-4 well">310000xd</div>
+                      
+                        <div class="col-xs-4 col-sm-2 well">发票金额</div>
+                        <div class="col-xs-8 col-sm-10 well">￥3000.00</div>
+                       
+                        <div class="col-xs-4 col-sm-2 well">附件下载</div>
+                        <div class="col-xs-8 col-sm-10 well">发票.jpg<i onclick="downLoadFile('51')" class="fa fa-download">
+                            </i> </div>                                                   
+                       
+                        <div class="col-xs-4 col-sm-2 well">备注</div>
+                        <div class="col-xs-8 col-sm-10 well"><textarea class="col-xs-12"></textarea></div>
+                     
+                </div>
+                </div>
+                <div class="col-xs-12 plan-wrapper">
+                <a aria-expanded="false" href="#auditinformation" data-toggle="collapse" class="plan-header collapsed"> <span class="icon"></span> <span class="txt">审核信息</span> </a>
+                <div id="auditinformation" aria-expanded="false"  class="order-information  col-xs-12 col-sm-10 collapse">
+                
+                        <div class="col-xs-4 col-sm-2 well">审核人</div>
+                        <div class="col-xs-8 col-sm-4 well">陈明</div>
+                  
+                        <div class="col-xs-4 col-sm-2 well">审核时间</div>
+                        <div class="col-xs-8 col-sm-4 well">08/12/2015</div>
+                      
+                        <div class="col-xs-4 col-sm-2 well">员工号</div>
+                        <div class="col-xs-8 col-sm-4 well">123456789</div>
+                         
+                        <div class="col-xs-4 col-sm-2 well">批复金额</div>
+                        <div class="col-xs-8 col-sm-4 well">1200</div>
+                        
+                        <div class="col-xs-4 col-sm-2 well">审核状态</div>
+                        <div class="col-xs-8 col-sm-10 well"  colspan="3">已通过</div>
+                         
+                        <div class="col-xs-4 col-sm-2 well">备注</div>
+                        <div class="col-xs-8 col-sm-10 well"><textarea class="col-xs-12"></textarea></div>
+                  
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- plan-details-page -->
+<div class="plan-details-page">
+  <div class="container">
+    <div class="main-container">
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inner-plan-details">
+            <div class="top-summary-warp-mb">
+              <div class="row section-heading">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 heading-title">
+                  方案详情
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3 heading-options">
+                  <a href="#" class="p_print">
+                  <img src="images/icon/print-icon.png"> 打印
+                  </a>
+                  <a href="#" class="p_export_pdf">
+                  <img src="images/icon/pdf-icon.png"> PDF下载
+                  </a>
+                </div>
+                <a class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pd-close" href="">
+                <img src="images/icon/close-grey.png">
+                </a>
+              </div>
+              <div class="row cp-selection visible-xs">
+                <a href="#" class="btn btn-cp-selection">
+                Compare
+                <div class="num-plans">
+                  1
+                </div>
+                <span class="icon"></span>
+                </a>
+              </div>
+            </div>
+            <!--定期寿险-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <a href="#" class="heading-txt">
+              定期寿险 <i data-original-title="在保险合同约定的期间内如果被保险人死亡或全残，保险公司按照约定的保险金额给付保险金。" class="fa fa-question" data-toggle="tooltip" title=""></i>
+              </a>
+              <div class="my-insurance-enrolled-table">
+                <table class="table table-border-box">
+                  <thead>
+                    <tr>
+                      <th class="col-sm-8 col-xs-10"> <div class="col-sm-4">
+                          被保险人
+                        </div>
+                        <div class="col-sm-8 hidden-xs">
+                          注册方案
+                        </div></th>
+                      <th class="col-sm-3 hidden-xs">公司支付部分</th>
+                      <th class="col-sm-1 text-right">价格</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          周杰 <span class="my-insurance-enrolled-table-insured">主保人</span>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                          24倍月薪，最低20万
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!--Critical Illness-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <a href="#" class="heading-txt">
+              重大疾病 <i data-original-title="在保险合同约定的期间内如果被保人患有保险合同中特定的重大疾病时，保险公司按照约定的保险金额给付保险金。" class="fa fa-question" data-toggle="tooltip" title=""></i>
+              </a>
+              <div class="my-insurance-enrolled-table">
+                <table class="table table-border-box">
+                  <thead>
+                    <tr>
+                      <th class="col-sm-8 col-xs-10"> <div class="col-sm-4">
+                          被保险人
+                        </div>
+                        <div class="col-sm-8 hidden-xs">
+                          注册方案
+                        </div></th>
+                      <th class="col-sm-3 hidden-xs">公司支付部分</th>
+                      <th class="col-sm-1 text-right">价格</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          周杰 <span class="my-insurance-enrolled-table-insured">主保人</span>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                          ￥ 200000
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          刘晓 <span class="my-insurance-enrolled-table-insured">配偶</span>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                          ￥ 100000
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          周冲 <span class="my-insurance-enrolled-table-insured">子女</span>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                          ￥ 200000
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!--Accidental Death & Dismemberment-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <a href="#" class="heading-txt">
+              人身意外险 <i data-original-title="在保险合同约定的期间内因发生意外事故而导致被保险人死亡或残疾，保险公司按照约定的保险金额给付保险金。" class="fa fa-question" data-toggle="tooltip" title=""></i>
+              </a>
+              <div class="my-insurance-enrolled-table">
+                <table class="table table-border-box">
+                  <thead>
+                    <tr>
+                      <th class="col-sm-8 col-xs-10"> <div class="col-sm-4">
+                          被保险人
+                        </div>
+                        <div class="col-sm-8 hidden-xs">
+                          注册方案
+                        </div></th>
+                      <th class="col-sm-3 hidden-xs">公司支付部分</th>
+                      <th class="col-sm-1 text-right">价格</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          周杰 <span class="my-insurance-enrolled-table-insured">主保人</span>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                          24倍月薪，最低20万
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          刘晓 <span class="my-insurance-enrolled-table-insured">配偶</span>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                          ￥ 100000
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          周冲 <span class="my-insurance-enrolled-table-insured">子女</span>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                          ￥ 200000
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!--Medical-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <a href="#" class="heading-txt">
+              医疗险 <i data-original-title="在保险合同约定的期间内被保险人因疾病所带来的医疗费用，保险公司按照约定的保险细则给予补偿。" class="fa fa-question" data-toggle="tooltip" title=""></i>
+              </a>
+              <div class="my-insurance-enrolled-table">
+                <table class="table table-border-box">
+                  <thead>
+                    <tr>
+                      <th class="col-sm-8 col-xs-10"> <div class="col-sm-4">
+                          被保险人
+                        </div>
+                        <div class="col-sm-8 hidden-xs">
+                          注册方案
+                        </div></th>
+                      <th class="col-sm-3 hidden-xs">公司支付部分</th>
+                      <th class="col-sm-1 text-right">价格</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          周杰 <span class="my-insurance-enrolled-table-insured">主保人</span>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                          补充核心医疗保险
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          刘晓 <span class="my-insurance-enrolled-table-insured">配偶</span>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                          配偶补充核心医疗保险
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                    <tr>
+                      <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                          周冲 <span class="my-insurance-enrolled-table-insured">子女</span>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                          儿童补充核心医疗保险
+                        </div></td>
+                      <td class="col-sm-3 hidden-xs">100%</td>
+                      <td class="col-sm-1 col-xs-2 text-right">0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            
+            <!--AVAILABLE BALANCE-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTAINER SECTION -->
+  </div>
+</div>
+<!-- plan detail -->
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="max-width-wrap">
+        <div class="col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+          <img  class="img-responsive" src="images/global/logo-global-barcode.png" />
+          <br>
+          <p> Find us on Wechat </p>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Insurance</h3>
+          <ul>
+            <li>
+              <a href="#">
+              Overview
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              My Inusrance
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              我的钱包
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              Profile
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Shopping</h3>
+          <ul>
+            <li>
+              <a href="#">
+              Browse
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              My Cart
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              Wishlist
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              History
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Support</h3>
+          <ul>
+            <li>
+              <a href="#">
+              Survey
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              Video Tutorial
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              F.A.Q
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+          <h3>Company</h3>
+          <ul>
+            <li>
+              <a href="#">
+              About Mercer
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              Terms & Conditions
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              Copyright Policy
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+          <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+        </div>
+        <div class="col-xs-6 col-xs-offset-6 col-sm-2 col-md-2 col-lg-2 col-c col-top visible-xs">
+          <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="max-width-wrap">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c visible-xs">
+          Change language:<!-- <a class="active" href="#"> EN</a> -->
+          <a href="my-wallet.html">
+          CN
+          </a>
+        </div>
+        <br>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c">
+          <i class="fa fa-copyright"></i>
+          <span>2015 Smart benefits. All right reserved.</span>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c hidden-xs">
+          Change language:<!-- <a class="active" href="#"> EN</a> -->
+          <a href="my-wallet-CN.html">
+          CN
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Scroll To Top -->
+<a href="#" class="scrollup">
+<i class="fa fa-angle-up"></i>
+</a>
+</div>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/jquery-ui.js"></script>
+<script src="js/vendor/jquery.placeholder.min.js"></script>
+<script src="js/vendor/jquery.bxslider.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/bootstrap-select.min.js"></script>
+<script src="js/vendor/jquery.selectBoxIt.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/util.js"></script>
+<script src="js/vendor/jquery.mmenu.min.all.js"></script>
+<script src="js/mercer.global.js"></script>
+</body>
+</html>

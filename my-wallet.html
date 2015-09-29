@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>My wallet</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="css/bootstrap-select.min.css">
+<link rel="stylesheet" href="css/main.css">
+<!--<link rel="stylesheet" href="css/style.css">-->
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+<div class="overlay-full">
+</div>
+<div class="check-screen">
+  <div class="visible-xs">
+  </div>
+  <div class="visible-sm">
+  </div>
+  <div class="visible-md">
+  </div>
+  <div class="visible-lg">
+  </div>
+</div>
+<div class="col-xs-12 mb-menu">
+  <div class="mb-menu-container">
+    <div class="col-xs-12 mb-top-nav">
+      <div class="col-xs-7 mb-user-bar">
+        <a href="account.html">
+          <img alt="avartar" src="images/demo-data/img-1.png" />
+          <span>Jerry</span>
+        </a>
+      </div>
+      <div class="mb-logout">
+        <a href="#">
+          Log out
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-12 mb-menu-content">
+      <div class="mb-menu-inner">
+        <div class="mb-menu-list">
+          <ul>
+            <li>
+              <a href="my-home.html">
+                <img src="images/icon/icon-overview.png">
+                <span>Overview</span>
+              </a>
+            </li>
+            <li>
+              <a href="my-insurance-not-enrolled.html">
+                <img src="images/icon/icon-insurance.png">
+                <span>Insurance</span>
+              </a>
+            </li>
+            <li class="selected">
+              <a href="javascript:void(0);">
+                <img src="images/icon/icon-wallet.png">
+                <span>Wallet</span>
+              </a>
+            </li>
+            <li>
+              <a href="account.html">
+                <img src="images/icon/icon-account.png">
+                <span>Account</span>
+              </a>
+            </li>
+            <li >
+              <a href="shopping-center.html">
+                <img src="images/icon/icon-shopping.png">
+                <span>Shop</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mb-menu-message">
+          <div class="txt-message-box">
+            <div class="txt-title">
+              You have <span>3</span> unread messages
+            </div>
+            <div class="txt-message-content">
+              Total credits of 2000 in your account will be expired next month;
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-see-all">
+              <a href="#" >
+                See all  message
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mb-language-toggle">
+          <span>Language:
+          <a href="my-home-CN.html">
+            CN
+          </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content-wrap-body">
+  <header>
+    <div class="container-fluid">
+      <div class="row user-options">
+        <div class="max-width-wrap">
+          <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4 ads-imgs">
+            <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs logo1-wrapper">
+              <a href="my-home.html">
+                <img class="img-responsive logo-1" src="images/home/logo/logo-smartbenefits.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-4 visible-xs">
+              <a href="my-home.html">
+                <img class="logo-small" src="images/home/logo/logo-smartbenefit-small.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 ">
+              <a href="my-home.html">
+                <img class="logo-2" src="images/home/logo/logo-ogilvy.png" />
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-2 visible-xs mb-btn-icon">
+            <a href="#" class="mb-nav-btn">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="col-sm-8 col-md-8 col-lg-8 hidden-xs top-right-section">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <ul>
+              <li>
+                <span>Language:</span>
+                <div class="languages-switch">
+                  <!-- <a  class="active" href="#">
+                                                    <span>EN</span>
+                                                </a> -->
+                  <a  href="my-wallet-CN.html">
+                    <span>CN</span>
+                  </a>
+                  <div class="seperator">
+                  </div>
+                </div>
+                
+                <!-- <img class="header-languages" src="images/icon/arrow-down.png"> -->
+                <img src="images/home/icon-message.png" alt="message" />
+                <div class="my-message">
+                  3
+                </div>
+                <div class="txt-message-box">
+                  <img src="images/home/icon-arrow-up.png" alt="" />
+                  <div class="txt-title">
+                    You have <span>3</span> unread messages
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-see-all">
+                    <a href="#" >
+                      See all message
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="top-right-option">
+                <a href="account.html">
+                  <img class="header-user" alt="avartar" src="images/demo-data/img-1.png" />
+                  <span class="header-user-name">Jerry</span>
+                </a>
+                <a class="login-off">
+                  <img src="images/icon/arrow-down.png">
+                </a>
+                <div class="login-box login-off-box top">
+                  <span class="login-bg"></span>
+                  <a href="account.html" class="update-password">
+                    <i class="fa fa-edit"></i>Update Password
+                  </a>
+                  <a class="logout">
+                    <i class="fa fa-power-off"></i>Logout
+                  </a>
+                </div>
+              </li>
+              <!-- <li>
+                                        
+                                      <img class="header-cart" src="images/icon/cart.png">
+                                      <span class="header-cart-items-number">0</span>
+                                    </li> -->
+            </ul>
+            <!-- <img src="images/demo-data/user-placeholder.jpg"> -->
+          </div>
+          <div class="visible-xs txt-message-bar-notification">
+            <span>3</span>
+          </div>
+        </div>
+      </div>
+      <div class="row top-nav hidden-xs">
+        <div class="max-width-wrap">
+          <div class="col-sm-12 col-md-12 col-lg-12 menu-wrapper">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <!-- <img src="images/demo-data/nav-placeholder.jpg"> -->
+            <ul>
+              <li>
+                <a href="my-home.html">
+                  <img src="images/icon/icon-overview.png">
+                  <span>Overview</span>
+                </a>
+              </li>
+              <li>
+                <a href="my-insurance-not-enrolled.html">
+                  <img src="images/icon/icon-insurance.png">
+                  <span>Insurance</span>
+                </a>
+              </li>
+              <li class="active">
+                <a href="javascript:void(0);">
+                  <img src="images/icon/icon-wallet.png">
+                  <span>Wallet</span>
+                </a>
+              </li>
+              <li>
+                <a href="account.html">
+                  <img src="images/icon/icon-account.png">
+                  <span>Account</span>
+                </a>
+              </li>
+              <li class="shopping-cart">
+                <a href="shopping-center.html">
+                  <img src="images/icon/icon-shopping.png">
+                  <span>Shop</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="col-sm-4 col-md-4 col-lg-4 shopping-cart">
+                                <img src="images/icon/icon-shop.png">
+                            </div> -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="main" class="page my-wallet">
+    <div class="container-fluid">
+      <div class="row summary-bar">
+        <div class="max-width-wrap">
+          <div class="tool-bar">
+            <div class="col-xs-7 col-sm-9 col-md-9 col-lg-9">
+              <div class="mb-summary-information visible-xs">
+                <p class="txt-summary-title">
+                  Amount Due
+                </p>
+                <div class="selection-icon">
+                </div>
+                <p class="number">
+                  5000
+                </p>
+              </div>
+              <ul class="summary-infomation hidden-xs">
+                <li class="summary-item   available-balance mr30 " data-value="5000">
+                  <span class="title">Available Balance</span>
+                  <!--<i title="" data-toggle="tooltip" class="fa fa-question-circle" data-html="true" data-original-title="Enrollment balance: 3000 <br>
+                Coin balance: 2000"></i>-->
+                  <p class="number">
+                    13300<i title="" data-toggle="tooltip" class="fa fa-exclamation-circle" data-html="true" data-original-title="Enrollment balance: 0 <br/> Non-insurance balance: 13300"></i>
+                  </p>
+                </li>
+                <li class="summary-item">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="33" 
+      aria-valuemin="0" aria-valuemax="100" style="width: 33%;">
+                      <span class="sr-only">33%</span>
+                    </div>
+                  </div>
+                  <div class="progress-data">
+                    <div class="progress-data-item total-credits">
+                      <span>Total Credits: 20000 </span>
+                    </div>
+                    <div class="progress-data-item used-credits">
+                      <i class="fa fa-stop"></i><span>Used Credits: 6700 </span>
+                    </div>
+                    <div class="progress-data-item unused-credits">
+                      <i class="fa fa-stop"></i><span>Unused Credits: 13300</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--手机屏幕点击出现的-->
+            <div class="mb-summary-selection col-xs-12">
+              <div class="mb-summary-information visible-xs">
+                <p class="txt-summary-title">
+                  Amount Due
+                </p>
+                <div class="selection-icon-hide">
+                </div>
+                <p class="number">
+                  5000
+                </p>
+              </div>
+              <div class="summary-item">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" 
+      aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                    <span class="sr-only">40%</span>
+                  </div>
+                </div>
+                <div class="progress-data">
+                  <div class="progress-data-item total-credits">
+                    <span>Total Credits: 10000 </span>
+                  </div>
+                  <div class="progress-data-item used-credits">
+                    <i class="fa fa-stop"></i><span>Used Credits: 4000 </span>
+                  </div>
+                  <div class="progress-data-item unused-credits">
+                    <i class="fa fa-stop"></i><span>Unused Credits: 6000</span>
+                  </div>
+                </div>
+              </div>
+              <!-- <li> <a class="sm-close-white" href="#"> <img src="images/icon/close-white.png"> </a> </li>
+              <li class="summary-item col-xs-12 col-sm-3  available-balance" data-value="5000"> <span class="title">Available Balance</span>
+                <p class="number">5000</p>
+              </li>
+              <li class="summary-item col-xs-12 col-sm-9">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" 
+      aria-valuemin="0" aria-valuemax="100" style="width: 40%;"> <span class="sr-only">40%</span> </div>
+                </div>
+                <div class="progress-data">
+                  <div class="progress-data-item total-credits col-xs-12"><span>Total Credits: 10000 </span></div>
+                  <div class="progress-data-item used-credits col-xs-12"><i class="fa fa-stop"></i><span>Used Credits: 4000 </span></div>
+                  <div class="progress-data-item unused-credits col-xs-12"><i class="fa fa-stop"></i><span>Unused Credits: 6000</span></div>
+                </div>
+              </li>-->
+            </div>
+            <!--<div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 checkout-btn-section"> <a href="review-check-out.html" class="btn btn-check-out">Check out</a> </div>-->
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 summary-message">
+            <p>
+              Great choice! Now select your insurance plans.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- SUMMARY BAR -->
+      <div class="main-container">
+        <div class="row my-wallet-conbg">
+          <div class="max-width-wrap">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 page-header-section">
+              <h1>My Wallet</h1>
+              <!--<div class="alert alert-success my-wallet-alert-warning">
+                <i class="fa fa-exclamation-triangle fa-2x"></i><span>1000 credits was expired on 3/12/15 and another crdits will expire on 5/12/15. Credit expirations are noted in your
+                <a class="income" href="javascript:void(0);">
+                  <u>income</u>
+                </a>
+                activity below.</span>
+              </div>-->
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <!--tab 切换-->
+              <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12 list-unstyled my-insurance-enrolled-tab">
+                <li class="active">
+                  <a class="btn" href="#Spending" data-toggle="tab">
+                    Spending
+                  </a>
+                </li>
+                <li>
+                  <a class="btn" href="#Income" data-toggle="tab">
+                    Income
+                  </a>
+                </li>
+              </ul>
+              <!--print pdf-->
+              <div class="operateBtns list-inline col-xs-12 col-sm-12 col-md-4 col-lg-4 visible-lg visible-md">
+                <a href="#" class="p_print">
+                  <img src="images/icon/print-icon.png"> Print
+                </a>
+                <a href="#" class="p_export_pdf">
+                  <img src="images/icon/pdf-icon.png"> PDF
+                </a>
+              </div>
+              <div class="tab-content row">
+                <div id="Spending" class="active tab-pane">
+                  <!--选择-->
+                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 select-box spending-select-box">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 select-usages">
+                      <select class="selectpicker" data-style="btn-default">
+                        <option>All Usages</option>
+                        <option>Enrollment</option>
+                        <option>Enrollment</option>
+                      </select>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 select-date-month">
+                      <select class="selectpicker" data-style="btn-default">
+                        <option>Last 2 Month</option>
+                        <option>Last 3 Month</option>
+                        <option>Last 4 Month</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="my-wallet-table">
+                      <table class="table table-border-box">
+                        <thead>
+                          <tr>
+                            <th class="col-xs-6 col-sm-7"> <div class="col-sm-2 hidden-xs">
+                                DATE
+                              </div>
+                              <div class="col-sm-3 hidden-xs">
+                                USAGE
+                              </div>
+                              <div class="col-sm-7">
+                                DESCRIPTIOIN
+                              </div>
+                            </th>
+                            <th class="col-xs-6 col-sm-5"> <div class="hidden-xs col-sm-6">
+                            PAYMENT TYPE
+                                
+                              </div>
+                              <div class="col-sm-6 text-right">
+                                TOTAL AMOUNT
+                              </div>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="col-xs-6 col-sm-7"><div class="col-xs-12 col-sm-2">
+                                05/12/15
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong>Shop Purchase</strong>
+                              </div>
+                              <div class="hidden-xs col-sm-4">
+                                Order Number:  123456789
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <a data-planname="plan-1" class="view-details view-order-details" href="javascript:void(0);">
+                                  View Detail<i class="fa fa-search"></i>
+                                </a>
+                              </div></td>
+                            <td class="col-xs-6 col-sm-5"><div class="hidden-xs collapse in" id="payment-type-first"> 
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 credit-title">
+                                    Cedit
+                                  </div>
+                                  <div class="col-sm-6 credit-price text-right" data-amount="1200">
+                                    1200
+                                  </div>
+                                </div>
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 online-title">
+                                    Online Payment
+                                  </div>
+                                  <div class="col-sm-6 online-price text-right" data-amount="0">
+                                    0
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="payment-type-row" >
+                                <div class="hidden-xs col-sm-6 amount-title">
+                                  
+                                  <a class="payment-type" data-toggle="collapse" href="#payment-type-first">
+                                  Amount<i class="icon"></i>
+                                </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 total-amount-price text-right" data-amount="1200">
+                                  <strong>1200</strong>
+                                </div>
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td class="col-xs-6 col-sm-7"><div class="col-xs-12 col-sm-2">
+                                05/11/15
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong>Enrollment</strong>
+                              </div>
+                              <div class="hidden-xs col-sm-4">
+                               Premium Package
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <a data-planname="plan-1" class="view-details" href="order-details.html">
+                                  View Detail<i class="fa fa-search"></i>
+                                </a>
+                              </div></td>
+                            <td class="col-xs-6 col-sm-5"><div class="hidden-xs collapse in" id="payment-type-second">
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 credit-title">
+                                    Creidt
+                                  </div>
+                                  <div class="col-sm-6 credit-price text-right" data-amount="1500">
+                                    5000
+                                  </div>
+                                </div>
+                                <div class="payment-type-row">
+                                  <div class="col-sm-6 online-title">
+                                    Payroll Deduction
+                                  </div>
+                                  <div class="col-sm-6 online-price text-right" data-amount="1000">
+                                    500
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="payment-type-row" >
+                                <div class="hidden-xs col-sm-6 amount-title">
+                                  
+                                  <a class="payment-type" data-toggle="collapse" href="#payment-type-second">
+                                  Amount<i class="icon"></i>
+                                </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 total-amount-price text-right" data-amount="2500">
+                                  <strong>5500</strong>
+                                </div>
+                              </div></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div id="Income" class="tab-pane">
+                  <!--选择-->
+                  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 select-box income-select-box">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 select-date-year">
+                      <select class="selectpicker" data-style="btn-default">
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!--Term Life-->
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="my-wallet-table">
+                      <table class="table table-border-box">
+                        <thead>
+                          <tr>
+                            <th class="col-xs-10 col-sm-6"> <div class="col-xs-12 col-sm-3 hidden-xs">
+                                DATE
+                              </div>
+                              <div class="col-xs-12 col-sm-6">
+                                USAGE
+                              </div>
+                              <div class="col-xs-12 col-sm-3 hidden-xs">
+                                DESCRIPTIOIN
+                              </div>
+                            </th>
+                            <th class="col-xs-2 col-sm-6 text-right"><div class="col-sm-12">
+                                AMOUNT
+                              </div></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="col-xs-12 col-sm-8"><div class="col-xs-12 col-sm-3">
+                                05/01/15
+                              </div>
+                              <div class="col-xs-12 col-sm-6">
+                                <strong>Enrollment</strong>
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong class=" visible-xs-inline-block">Expires:</strong>
+                                 2015 Benefit Year
+                              </div></td>
+                            <td class="col-xs-2 col-sm-4 text-right"><div class="col-sm-12">
+                               5000
+                              </div></td>
+                          </tr>
+                           <tr>
+                            <td class="col-xs-12 col-sm-8"><div class="col-xs-12 col-sm-3">
+                                05/01/15
+                              </div>
+                              <div class="col-xs-12 col-sm-6">
+                                <strong>Shopping</strong>
+                              </div>
+                              <div class="col-xs-12 col-sm-3">
+                                <strong class=" visible-xs-inline-block">Expires:</strong>
+                                 2015 Benefit Year
+                              </div></td>
+                            <td class="col-xs-2 col-sm-4 text-right"><div class="col-sm-12">
+                               15000
+                              </div></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--list page-->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 my-wallet-page">
+                <ul class="pagination pagination-lg">
+                  <li>
+                    <a href="javascript:void(0);">
+                      &lt;
+                    </a>
+                  </li>
+                  <li class="active">
+                    <a href="javascript:void(0);">
+                      1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      2
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      3
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      4
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      &gt;
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTAINER SECTION -->
+    </div>
+  </div>
+  <!-- order-details-page start-->
+<div class="plan-details-page order-details-page">
+    <div class="container">
+      <div class="main-container">
+        <div class="row">
+          <div class="max-width-wrap">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inner-plan-details">
+              <div class="top-summary-warp-mb">
+                <div class="row section-heading">
+                  
+                  <a class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pd-close" href="">
+                    <img src="images/icon/close-grey.png">
+                  </a>
+                </div>
+                
+                
+              </div>
+              <div class="">
+              <!--<div class="shopping-cart-header clearfix mt50 mb35">
+          <div class="col-xs-12 col-sm-4">
+            <div class="content"><span class="complete">1</span><i class="fa fa-caret-right fa-2x  complete"></i> SUBMIT ORDER</div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="content">
+              <span  class="curr">2</span><i class="fa fa-caret-right fa-2x curr"></i>DELIVERING</div>
+          </div>
+          <div class="col-xs-12 col-sm-4 ">
+            <div class="content">
+              <span>3</span><i class="fa fa-caret-right fa-2x "></i> finish</div>
+          </div>
+        </div>-->
+              <h2 class="text-capitalize col-xs-12 order-details-title">Order details</h2>
+              <div class="btns-group btns-order-details">
+                <a class="btn btn-default btn-cancel-order">
+                  Cancel Order
+                </a>
+            <!--    <a class="btn btn-default btn-Return-exchange" data-toggle="modal" 
+   data-target="#myModal-return">
+                  Return
+                </a>-->
+              </div>
+              <div class="operateBtns list-inline col-xs-12 col-sm-12 col-md-4 col-lg-4 visible-lg visible-md">
+                <a href="#" class="p_print">
+                  <img src="images/icon/print-icon.png"> Print
+                </a>
+                <a href="#" class="p_export_pdf">
+                  <img src="images/icon/pdf-icon.png"> PDF
+                </a>
+              </div>
+              <!--Order Information-->
+              <div class="col-xs-12 plan-wrapper">
+                <a href="#OrderInformation" data-toggle="collapse" class="plan-header">
+                  <span class="icon"></span>
+                  <span class="txt">Order Information</span>
+                </a>
+                <div  id="OrderInformation" class="order-information collapse in">
+                  <table class="order-details-table">
+                    <tbody>
+                      <tr>
+                        <td class="col-xs-4 col-sm-3 dt">Order Number</td>
+                        <td class="col-xs-8 col-sm-9 dd">123456789</td>
+                      </tr>
+                      <tr>
+                        <td class="col-xs-4 col-sm-3 dt">Order Date</td>
+                        <td class="col-xs-8 col-sm-9 dd"><span class="order-date">05/12/2015</span></td>
+                      </tr>
+                      <tr>
+                        <td class="col-xs-4 col-sm-3 dt">Order Time</td>
+                        <td class="col-xs-8 col-sm-9 dd">14:00</td>
+                      </tr>
+                      <!--<tr>
+                        <td class="col-xs-4 col-sm-3 dt">Order Status</td>
+                        <td class="col-xs-8 col-sm-9 dd">Not confirmed by vendor</td>
+                      </tr>-->
+                      <tr>
+                        <td class="col-xs-4 col-sm-3 dt">Receiver</td>
+                        <td class="col-xs-8 col-sm-9 dd">Jerry Zhou |  26th Floor, The Center, 989 Chanle Road, Shanghai 200031  |  123 4567 1234</td>
+                      <tr>
+                        <td class="col-xs-4 col-sm-3 dt">Shipping Method</td>
+                        <td class="col-xs-8 col-sm-9 dd">None</td>
+                      </tr>
+                      <tr>
+                        <td class="col-xs-4 col-sm-3 dt">Invoice Information</td>
+                        <td class="col-xs-8 col-sm-9 dd">None</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!--Product Information-->
+              <div class="col-xs-12 plan-wrapper">
+                <a href="#ProductInformation" data-toggle="collapse" class="plan-header">
+                  <span class="icon"></span>
+                  <span class="txt">Product Information</span>
+                </a>
+                <div id="ProductInformation" class="product-information collapse in">
+                  <table class="table order-details-table">
+                    <thead>
+                      <tr>
+                        <th class="col-xs-10 col-sm-11"> <div class="col-sm-8 hidden-xs">
+                            Product
+                          </div>
+                          <div class="col-sm-2  hidden-xs">
+                            PRICE
+                          </div>
+                          <div class="col-sm-2 hidden-xs">
+                            QUANTITY
+                          </div>
+                          <div class="col-xs-10 visible-xs">
+                            DESCRIPTION
+                          </div>
+                        </th>
+                        <th class="col-xs-2 col-sm-1 text-right"><div class="col-xs-12">
+                            AMOUNT
+                          </div></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td  class="col-xs-8 col-sm-11"><div class="col-sm-2 hidden-xs">
+                            <img src="images/demo-data/details_01.jpg">
+                          </div>
+                          <div class="col-xs-12 col-sm-6">
+                            <p>
+                             Bailey's lover 1-pound cake+20-yuan coupon
+                            </p>
+                            <!--<p>
+                              Color: White
+                            </p>
+                            <p>
+                              Spec: Spec 1
+                            </p>-->
+                          </div>
+                          <p class="col-xs-12 col-sm-2">
+                            <span class="visible-xs-inline-block">Price: </span> $200
+                          </p>
+                          <p class="col-xs-12 col-sm-2">
+                            <span class="visible-xs-inline-block">Quantity: </span> 1
+                          </p></td>
+                        <td class="col-xs-4 col-sm-1 text-right"><div class="col-xs-12">
+                            $200
+                          </div></td>
+                      </tr>
+                      <tr>
+                        <td  class="col-xs-8 col-sm-11"><div class="col-sm-2 hidden-xs">
+                            <img src="images/sc01.jpg">
+                          </div>
+                          <div class="col-xs-12 col-sm-6">
+                            <p>
+                              Children's oral care of teeth cleaning basic treatment plan
+                            </p>
+                            <!--<p>
+                              Color: White
+                            </p>
+                            <p>
+                              Spec: Spec 1
+                            </p>-->
+                          </div>
+                          <p class="col-xs-12 col-sm-2">
+                            <span class="visible-xs-inline-block">Price: </span> $1000
+                          </p>
+                          <p class="col-xs-12 col-sm-2">
+                            <span class="visible-xs-inline-block">Quantity: </span> 1
+                          </p></td>
+                        <td class="col-xs-4 col-sm-1 text-right"><div class="col-xs-12">
+                            $1000
+                          </div></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!--Payment Information-->
+              <div class="col-xs-12 plan-wrapper">
+                <a href="#PaymentInformation" data-toggle="collapse" class="plan-header">
+                  <span class="icon"></span>
+                  <span class="txt">Payment Information</span>
+                </a>
+                <div id="PaymentInformation" class="payment-information collapse in">
+                  <table class="table order-details-table">
+                    <tbody>
+                      <tr>
+                        <td  class="col-xs-8 col-sm-3">PRODUCT TOTAL</td>
+                        <td class="col-xs-4 col-sm-9"><strong>1200</strong></td>
+                      </tr>
+                      <tr>
+                        <td  class="col-xs-8 col-sm-3">SHIPPING FEE</td>
+                        <td class="col-xs-4 col-sm-9"><strong>0</strong></td>
+                      </tr>
+                      <tr>
+                        <td  class="col-xs-8 col-sm-3">FINAL AMOUNT</td>
+                        <td class="col-xs-4 col-sm-9"><strong>1200</strong></td>
+                      </tr>
+                      <!--<tr>
+                        <td  class="col-xs-8 col-sm-3">COUPON DISCOUNT</td>
+                        <td class="col-xs-4 col-sm-9"><strong>20%</strong></td>
+                      </tr>-->
+                      <tr>
+                        <td  class="col-xs-8 col-sm-3">CREDIT DEDUCTION</td>
+                        <td class="col-xs-4 col-sm-9"><strong>1200</strong></td>
+                      </tr>
+                      <tr>
+                        <td  class="col-xs-8 col-sm-3">ONLINE PAYMENT METHOD</td>
+                        <td class="col-xs-4 col-sm-9 final-amount"><strong>0</strong></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTAINER SECTION -->
+    </div>
+  </div>
+  <!-- order-details-page end-->
+  <!-- plan-details-page -->
+  <div class="plan-details-page Package-detail">
+    <div class="container">
+      <div class="main-container">
+        <div class="row">
+          <div class="max-width-wrap">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inner-plan-details">
+              <div class="top-summary-warp-mb">
+                <div class="row section-heading">
+                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-23 heading-title">
+                    Package Details
+                  </div>
+                  <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3 heading-options">
+                    <a href="#" class="p_print">
+                      <img src="images/icon/print-icon.png"> Print
+                    </a>
+                    <a href="#" class="p_export_pdf">
+                      <img src="images/icon/pdf-icon.png"> PDF
+                    </a>
+                  </div>
+                  <a class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pd-close" href="">
+                    <img src="images/icon/close-grey.png">
+                  </a>
+                </div>
+                <div class="row cp-selection visible-xs">
+                  <a href="#" class="btn btn-cp-selection">
+                    Compare
+                    <div class="num-plans">
+                      1
+                    </div>
+                    <span class="icon"></span>
+                  </a>
+                </div>
+                 
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <a class="heading-txt" href="#">
+                                  Term Life <i title="" data-toggle="tooltip" class="fa fa-question" data-original-title="A type of life insurance that provides coverage at a fixed rate of payments in case the insured dies within the coverage period."></i>
+                                </a>
+                                <div class="my-insurance-enrolled-table">
+                                  <table class="table table-border-box">
+                                    <thead>
+                                      <tr>
+                                        <th class="col-sm-8 col-xs-10"> <div class="col-sm-4">
+                                            INSURED
+                                          </div>
+                                          <div class="col-sm-8 hidden-xs">
+                                            ENROLLED PLAN
+                                          </div></th>
+                                        <th class="col-sm-3 hidden-xs">% PAID BY EMPLOYER</th>
+                                        <th class="col-sm-1 text-right">PRICE</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                            Jerry <span class="my-insurance-enrolled-table-insured">primary</span>
+                                          </div>
+                                          <div class="col-sm-3 col-xs-12">
+                                            24xBMS(min RMB 200000)
+                                          </div>
+                                           </td>
+                                        <td class="col-sm-3 hidden-xs">100%</td>
+                                        <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                  <a class="heading-txt" href="#">
+                                    Critical Illness <i title="" data-toggle="tooltip" class="fa fa-question" data-original-title="A type of life insurance that provides coverage at a fixed rate of payments in case the insured dies within the coverage period."></i>
+                                  </a>
+                                  <div class="my-insurance-enrolled-table">
+                                    <table class="table table-border-box">
+                                      <thead>
+                                        <tr>
+                                          <th class="col-sm-8 col-xs-10"> <div class="col-sm-4">
+                                              INSURED
+                                            </div>
+                                            <div class="col-sm-8 hidden-xs">
+                                              ENROLLED PLAN
+                                            </div></th>
+                                          <th class="col-sm-3 hidden-xs">% PAID BY EMPLOYER</th>
+                                          <th class="col-sm-1 text-right">PRICE</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                              Jerry <span class="my-insurance-enrolled-table-insured">primary</span>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-12">
+                                              RMB 200000)
+                                            </div>
+                                             </td>
+                                          <td class="col-sm-3 hidden-xs">100%</td>
+                                          <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                              Eva <span class="my-insurance-enrolled-table-insured">SPOUSE</span>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-12">
+                                              RMB 100000)
+                                            </div>
+                                            </td>
+                                          <td class="col-sm-3 hidden-xs">100%</td>
+                                          <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                              Tom <span class="my-insurance-enrolled-table-insured">CHILD</span>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-12">
+                                              RMB 200000)
+                                            </div>
+                                             </td>
+                                          <td class="col-sm-3 hidden-xs">100%</td>
+                                          <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                  <a class="heading-txt" href="#">
+                                                    Accidental Death &amp; Dismemberment <i title="" data-toggle="tooltip" class="fa fa-question" data-original-title="A type of life insurance that provides coverage at a fixed rate of payments in case the insured dies within the coverage period."></i>
+                                                  </a>
+                                                  <div class="my-insurance-enrolled-table">
+                                                    <table class="table table-border-box">
+                                                      <thead>
+                                                        <tr>
+                                                          <th class="col-sm-8 col-xs-10"> <div class="col-sm-4">
+                                                              INSURED
+                                                            </div>
+                                                            <div class="col-sm-8 hidden-xs">
+                                                              ENROLLED PLAN
+                                                            </div></th>
+                                                          <th class="col-sm-3 hidden-xs">% PAID BY EMPLOYER</th>
+                                                          <th class="col-sm-1 text-right">PRICE</th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                                              Jerry <span class="my-insurance-enrolled-table-insured">primary</span>
+                                                            </div>
+                                                            <div class="col-sm-3 col-xs-12">
+                                                              24xBMS(min RMB 200000)
+                                                            </div>
+                                                             </td>
+                                                          <td class="col-sm-3 hidden-xs">100%</td>
+                                                          <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                                              Eva <span class="my-insurance-enrolled-table-insured">SPOUSE</span>
+                                                            </div>
+                                                            <div class="col-sm-4 col-xs-12">
+                                                              RMB 100000)
+                                                            </div>
+                                                             </td>
+                                                          <td class="col-sm-3 hidden-xs">100%</td>
+                                                          <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                                              Tom <span class="my-insurance-enrolled-table-insured">CHILD</span>
+                                                            </div>
+                                                            <div class="col-sm-4 col-xs-12">
+                                                              RMB 200000)
+                                                            </div>
+                                                             </td>
+                                                          <td class="col-sm-3 hidden-xs">100%</td>
+                                                          <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                                  <a class="heading-txt" href="#">
+                                                                    Medical <i title="" data-toggle="tooltip" class="fa fa-question" data-original-title="A type of life insurance that provides coverage at a fixed rate of payments in case the insured dies within the coverage period."></i>
+                                                                  </a>
+                                                                  <div class="my-insurance-enrolled-table">
+                                                                    <table class="table table-border-box">
+                                                                      <thead>
+                                                                        <tr>
+                                                                          <th class="col-sm-8 col-xs-10"> <div class="col-sm-4">
+                                                                              INSURED
+                                                                            </div>
+                                                                            <div class="col-sm-8 hidden-xs">
+                                                                              ENROLLED PLAN
+                                                                            </div></th>
+                                                                          <th class="col-sm-3 hidden-xs">% PAID BY EMPLOYER</th>
+                                                                          <th class="col-sm-1 text-right">PRICE</th>
+                                                                        </tr>
+                                                                      </thead>
+                                                                      <tbody>
+                                                                        <tr>
+                                                                          <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                                                              Jerry <span class="my-insurance-enrolled-table-insured">primary</span>
+                                                                            </div>
+                                                                            <div class="col-sm-4 col-xs-12">
+                                                                              Supplementary Medical Insurance Core
+                                                                            </div>
+                                                                             </td>
+                                                                          <td class="col-sm-3 hidden-xs">100%</td>
+                                                                          <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                          <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                                                              Eva <span class="my-insurance-enrolled-table-insured">SPOUSE</span>
+                                                                            </div>
+                                                                            <div class="col-sm-4 col-xs-12">
+                                                                              Spouse Supplementary Medical Insurance Premium
+                                                                            </div>
+                                                                             </td>
+                                                                          <td class="col-sm-3 hidden-xs">100%</td>
+                                                                          <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                          <td class="col-sm-8 col-xs-10"><div class="col-sm-4 col-xs-12">
+                                                                              Tom <span class="my-insurance-enrolled-table-insured">CHILD</span>
+                                                                            </div>
+                                                                            <div class="col-sm-4 col-xs-12">
+                                                                              Child Supplementary Medical Insurance Core
+                                                                            </div>
+                                                                             </td>
+                                                                          <td class="col-sm-3 hidden-xs">100%</td>
+                                                                          <td class="col-sm-1 col-xs-2 text-right">0</td>
+                                                                        </tr>
+                                                                      </tbody>
+                                                                    </table>
+                                                                  </div>
+                                                                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTAINER SECTION -->
+    </div>
+  </div>
+  <!-- plan detail -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+            <img  class="img-responsive" src="images/global/logo-global-barcode.png" />
+            <br>
+            <p>
+              Find us on Wechat
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Insurance</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  Overview
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  My Inusrance
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  My Wallet
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Profile
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Shopping</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  Browse
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  My Cart
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Wishlist
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  History
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Support</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  Survey
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Video Tutorial
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  F.A.Q
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Company</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  About Mercer
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Copyright Policy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+            <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+          </div>
+          <div class="col-xs-6 col-xs-offset-6 col-sm-2 col-md-2 col-lg-2 col-c col-top visible-xs">
+            <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c visible-xs">
+            Change language:<!-- <a class="active" href="#"> EN</a> -->
+            <a href="my-wallet-CN.html">
+              CN
+            </a>
+          </div>
+          <br>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c">
+            <i class="fa fa-copyright"></i>
+            <span>2015 Smart benefits. All right reserved.</span>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c hidden-xs">
+            Change language:<!-- <a class="active" href="#"> EN</a> -->
+            <a href="my-wallet-CN.html">
+              CN
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scroll To Top -->
+  <a href="#" class="scrollup">
+    <i class="fa fa-angle-up"></i>
+  </a>
+</div>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/jquery-ui.js"></script>
+<script src="js/vendor/jquery.placeholder.min.js"></script>
+<script src="js/vendor/jquery.bxslider.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/bootstrap-select.min.js"></script>
+<script src="js/vendor/jquery.selectBoxIt.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/util.js"></script>
+<script src="js/vendor/jquery.mmenu.min.all.js"></script>
+<script src="js/mercer.global.js"></script>
+</body>
+</html>

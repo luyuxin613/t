@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" > <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>My Home</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font.css">
+<!--popover-->
+<link rel="stylesheet" href="css/jquery.webui-popover.min.css">
+<link rel="stylesheet" href="css/main.css">
+<!-- <link rel="stylesheet" href="css/jquery.mmenu.css"> -->
+<!-- <link rel="stylesheet" href="css/jquery.mmenu.dragopen.css"> -->
+<link rel="stylesheet" href="css/jquery.mmenu.all.css">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body >
+<div class="overlay-full">
+</div>
+<div class="check-screen">
+  <div class="visible-xs">
+  </div>
+  <div class="visible-sm">
+  </div>
+  <div class="visible-md">
+  </div>
+  <div class="visible-lg">
+  </div>
+</div>
+<div class="col-xs-12 mb-menu">
+  <div class="mb-menu-container">
+    <div class="col-xs-12 mb-top-nav">
+      <div class="col-xs-7 mb-user-bar">
+        <img alt="avartar" src="images/demo-data/adult_male.png" />
+        <span>Jerry</span>
+      </div>
+      <div class="mb-logout">
+        <a href="#">
+          Log out
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-12 mb-menu-content">
+      <div class="mb-menu-inner">
+        <div class="mb-menu-list">
+          <ul>
+            <li class="selected">
+              <a href="javascript:void(0)">
+                <img src="images/icon/icon-overview.png">
+                <span>Overview</span>
+              </a>
+            </li>
+            <li>
+              <a href="my-insurance-not-enrolled.html">
+                <img src="images/icon/icon-insurance.png">
+                <span>Insurance</span>
+              </a>
+            </li>
+            <li>
+              <a href="my-wallet.html">
+                <img src="images/icon/icon-wallet.png">
+                <span>Wallet</span>
+              </a>
+            </li>
+            <li >
+              <a href="account.html">
+                <img src="images/icon/icon-account.png">
+                <span>Account</span>
+              </a>
+            </li>
+            <li >
+              <a href="shopping-center.html">
+                <img src="images/icon/icon-shop.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mb-menu-message">
+          <div class="txt-message-box">
+            <div class="txt-title">
+              You have <span>3</span> unread messages
+            </div>
+            <div class="txt-message-content">
+              Total credits of 2000 in your account will be expired next month;
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-see-all">
+              <a href="Notifications.html" >
+                See all  messages
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mb-language-toggle">
+          <span>Language:
+          <a href="my-home-CN.html">
+            CN
+          </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content-wrap-body">
+  <header>
+    <div class="container-fluid">
+      <div class="row user-options">
+        <div class="max-width-wrap">
+          <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4 ads-imgs">
+            <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs logo1-wrapper">
+              <a href="my-home.html">
+                <img class="img-responsive logo-1" src="images/home/logo/logo-smartbenefits.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-4 visible-xs">
+              <a href="my-home.html">
+                <img class="logo-small" src="images/home/logo/logo-smartbenefit-small.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 ">
+              <a href="my-home.html">
+                <img class="logo-2" src="images/home/logo/logo-ogilvy.png" />
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-2 visible-xs mb-btn-icon">
+            <a href="#" class="mb-nav-btn">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="col-sm-8 col-md-8 col-lg-8 hidden-xs top-right-section">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <ul>
+              <li>
+                <span>Language:</span>
+                <div class="languages-switch">
+                  <!-- <a  class="active" href="#">
+                                                    <span>EN</span>
+                                                </a> -->
+                  <a  href="my-home-CN.html">
+                    <span>CN</span>
+                  </a>
+                  <div class="seperator">
+                  </div>
+                </div>
+                
+                <!-- <img class="header-languages" src="images/icon/arrow-down.png"> -->
+                <img src="images/home/icon-message.png" alt="message" />
+                <div class="my-message">
+                  3
+                </div>
+                <div class="txt-message-box">
+                  <img src="images/home/icon-arrow-up.png" alt="" />
+                  <div class="txt-title">
+                    You have <span>3</span> unread messages
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-see-all">
+                    <a href="Notifications.html" >
+                      See all messages
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="top-right-option">
+                <a href="account.html">
+                  <img class="header-user" alt="avartar" src="images/demo-data/adult_male.png" />
+                  <span class="header-user-name">Jerry</span>
+                </a>
+                <a class="login-off">
+                  <img src="images/icon/arrow-down.png">
+                </a>
+                <div class="login-box login-off-box top">
+                  <span class="login-bg"></span>
+                  <a href="account.html" class="update-password">
+                    <i class="fa fa-edit"></i>Update Password
+                  </a>
+                  <a class="logout">
+                    <i class="fa fa-power-off"></i>Logout
+                  </a>
+                </div>
+              </li>
+              <!-- <li>
+                                        
+                                      <img class="header-cart" src="images/icon/cart.png">
+                                      <span class="header-cart-items-number">0</span>
+                                    </li> -->
+            </ul>
+            <!-- <img src="images/demo-data/user-placeholder.jpg"> -->
+          </div>
+          <div class="visible-xs txt-message-bar-notification">
+            <span>3</span>
+          </div>
+        </div>
+      </div>
+      <div class="row top-nav hidden-xs">
+        <div class="max-width-wrap">
+          <div class="col-sm-12 col-md-12 col-lg-12 menu-wrapper">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <!-- <img src="images/demo-data/nav-placeholder.jpg"> -->
+            
+            <ul>
+              <li class="active">
+                <a href="javascript:void(0)">
+                  <img src="images/icon/icon-overview.png">
+                  <span>Overview</span>
+                </a>
+              </li>
+              <li>
+                <a href="my-insurance-not-enrolled.html">
+                  <img src="images/icon/icon-insurance.png">
+                  <span>Insurance</span>
+                </a>
+              </li>
+              <li>
+                <a href="my-wallet.html">
+                  <img src="images/icon/icon-wallet.png">
+                  <span>Wallet</span>
+                </a>
+              </li>
+              <li style="position:relative">
+                <a href="account.html">
+                  <img src="images/icon/icon-account.png">
+                  <span>Account</span>
+                </a>
+              </li>
+              <li class="shopping-cart" >
+                <a href="shopping-center.html">
+                  <img src="images/icon/icon-shopping.png">
+                  <span>Shop</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="col-sm-4 col-md-4 col-lg-4 shopping-cart">
+                                <img src="images/icon/icon-shop.png">
+                            </div> -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="main" class="page page-home">
+    <div class="container-fluid">
+      <div class="row max-width-wrap">
+        <div class="home-page-wrapper">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 widgets-left-wrapper">
+            <div class="my-tasks-wrapper">
+              <h4>My tasks</h4>
+              <div class="txt-task-notification" data-value="4">
+                4
+              </div>
+              <div class="task-wrapper">
+                <p class="txt-tasks">
+                  <span class="txt-bulletin">1. </span>Confirm your personal details
+                </p>
+                <p class="txt-tasks">
+                  <span class="txt-bulletin">2. </span>Add your dependants
+                </p>
+                <p class="txt-tasks">
+                  <span class="txt-bulletin">3. </span>Complete your enrollment
+                </p>
+                <p class="txt-tasks">
+                  <span class="txt-bulletin">4. </span>Complete your claim in 180 days
+                </p>
+              </div>
+              <p class="txt-no-task">
+                You have no tasks
+              </p>
+            </div>
+            <div class="balance-wrapper">
+
+              <div class="balance-header clearfix">
+                <div class="header-balance-chart" >
+
+                  <div id="chart-container">
+                  </div>
+                </div>
+
+                <div class="header-balance-txt" >
+
+                  <span>Available balance</span>
+                  <h3>20000</h3>
+                  <span >Enrollment: 5000</span>
+                  <br>
+                  <span>Non-insurance:  10000</span>
+                  <br>
+                  <span>Claim:  5000</span>
+                </div>
+              </div>
+              <div class="inner-wrapper hidden-xs">
+                <div class="recent-stransactions">
+                  <span>Recent Transactions</span>
+                  <span class="txt-hide">Show</span>
+                </div>
+                <div class="stransactions-wrapper explaned" style="display:none;">
+                  <article>
+                    <span class="txt-date">12/11/15</span>
+                    <span class="txt-name">Order Number:123456789</span>
+                    <span class="txt-number">1200</span>
+                  </article>
+                  <article>
+                    <span class="txt-date">12/11/15</span>
+                    <span class="txt-name">Premium Package</span>
+                    <span class="txt-number">5500</span>
+                  </article>
+                  <div class="txt-see-details">
+                <a href="#">
+                  See Details
+                </a>
+              </div>
+                </div>
+              </div>
+              
+              <!--弹出框提示 第二步-->
+              
+              <div  class="myModal-tutorial" id="myModal-start-tutorial-three" >
+                <div class="modal-dialog">
+                  <div class="modal-content right bottom">
+                    <a class="pd-close">
+                      <img src="images/icon/close-grey.png">
+                    </a>
+                    <i class="arrow"></i>
+                    <div class="modal-body">
+                      <h1>Benefit Credits</h1>
+                      <p class="tutorial-txt">
+                        Benefit Coins is the currency in Smart Benefits portal.
+                      </p>
+                      <p>
+                        <span class="color-credit"> One Benefit Coin is equivalent to one RMB.</span>
+                      </p>
+                      <p>
+                        You may use the Benefit Coins available on top-up insurance plans for yourself and your family.
+                      </p>
+                      <p>
+                        You may further use the outstanding balance on non-insurance products in the portal.
+                      </p>
+                      <div class="tutorial-footer row">
+                        <ul class="step-list col-xs-12">
+                          <li><span class="step-default step-active">1</span></li>
+                          <li><span class="step-default step-active">2</span></li>
+                          <li><span class="step-default step-active">3</span></li>
+                          <li><span class="step-default">4</span></li>
+                        </ul>
+                        <div class="step-btns col-xs-12">
+                          <a href="#plans-benefits-block" class="smooth tutorial-next tutorial-three-next">
+                            Next
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 insurance-home-wrapper">
+            <h2>My Insurance</h2>
+            <div class="txt-imsurance-message" id="txt-imsurance-message">
+              <img src="images/home/ico-warning.png">
+              <span>20 days left - please enroll soon!</span>
+            </div>
+            <div class="blocks-insurance-wrapper">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 block-update-my-profile">
+                <div class="header-update-my-protile">
+                  <span>1</span>
+                  <a href="#">
+                    Update my profile
+                  </a>
+                </div>
+                <div class="update-my-profile-inner">
+                  <div class="wrapper-inner">
+                    <p class="txt-title">
+                      Please ensure your profile is complete before enrollment. Any dependants you wish to include should be listed below or added within your profile.
+                    </p>
+                    <ul class="update-my-profile list-of-slider" data-bxxstype="3"  data-bxsmtype="3"  data-bxmdtype="3" data-bxlgtype="3">
+                      <li>
+                        <div class="block-items">
+                          <span class="txt-type">Primary</span>
+                          <img alt="avartar" src="images/demo-data/adult_male.png" />
+                          <span class="txt-name">Jerry</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block-items">
+                          <span class="txt-type">Spouse</span>
+                          <img alt="avartar" src="images/demo-data/adult_female.png" />
+                          <span class="txt-name">Eva</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block-items">
+                          <span class="txt-type">Child</span>
+                          <img alt="avartar" src="images/demo-data/teen_male.png" />
+                          <span class="txt-name">Tom</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <a href="account.html" class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6 btn btn-edit-profile">
+                    <span>View Profile</span>
+                  </a>
+                </div>
+                <!--弹出框提示 第一步-->
+                <div  class="myModal-tutorial" id="myModal-start-tutorial-first" >
+                  <div class="modal-dialog">
+                    <div class="modal-content right bottom">
+                      <a class="pd-close">
+                        <img src="images/icon/close-grey.png">
+                      </a>
+                      <i class="arrow"></i>
+                      <div class="modal-body">
+                        <h1>Edit Profile Info</h1>
+                        <p class="tutorial-txt">
+                          First please review and update your profile.<br>
+Having the accurate profile information is the perfect start!
+                        </p>
+                        <div class="tutorial-footer row">
+                          <ul class="step-list col-xs-12">
+                            <li><span class="step-default step-active">1</span></li>
+                            <li><span class="step-default">2</span></li>
+                            <li><span class="step-default">3</span></li>
+                            <li><span class="step-default">4</span></li>
+                          </ul>
+                          <div class="step-btns col-xs-12">
+                            <a href="#txt-imsurance-message" class="smooth tutorial-next tutorial-first-next">
+                              Next
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 block-enroll">
+                <div class="header-enroll">
+                  <span>2</span>
+                  <a href="#">
+                    Enroll
+                  </a>
+                </div>
+                <div class="enroll-inner">
+                  <div class="wrapper-inner">
+                    <p class="txt-title">
+                      Enrollment Period: <span>5/1/15 - 5/31/15 </span>
+                    </p>
+                    <p class="txt-short-desc">
+                      The default core plan will be selected if no other option is chosen before the deadline.
+                    </p>
+                    <!--<p class="txt-help">
+                      Need help ?
+                    </p>
+                    <p class="txt-read">
+                      Read enrollment handbook
+                    </p>-->
+                  </div>
+                  <a href="package-page.html" class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6 btn btn-enroll">
+                    <span>Enroll Now</span>
+                  </a>
+                </div>
+                <!--弹出框提示 第三步-->
+                <div class="myModal-tutorial" id="myModal-start-tutorial-second" >
+                  <div class="modal-dialog">
+                    <div class="modal-content left bottom">
+                      <a class="pd-close">
+                        <img src="images/icon/close-grey.png">
+                      </a>
+                      <i class="arrow"></i>
+                      <!--<div class="modal-header">
+                          <button type="button" class="close" 
+                                 data-dismiss="modal" aria-hidden="true">
+                          &times;
+                          </button>
+                          <h5 class="modal-title" id="myModalLabel"> Warm prompt </h5>
+                        </div>-->
+                      <div class="modal-body">
+                        <h1>How to enroll an top-up insurance plan</h1>
+                        <p class="tutorial-txt">
+                          You may choose among the recommended top-up insurance plans, or customize your own plan.</p><p>
+Please click "Plan Details" to see the elaboration, or compare across plans.</p><p>
+If you need extra help, please click "?"</p><p>
+You may edit your selection before the enrollment deadline.</p><p>
+We will need your agreement to confirm that the amount outstanding after Benefit Coin balance will be paid through payroll deduction.
+                        </p>
+                        <div class="tutorial-footer row">
+                          <ul class="step-list col-xs-12">
+                            <li><span class="step-default step-active">1</span></li>
+                            <li><span class="step-default step-active">2</span></li>
+                            <li><span class="step-default">3</span></li>
+                            <li><span class="step-default">4</span></li>
+                          </ul>
+                          <div class="step-btns col-xs-12">
+                            <a href="#txt-imsurance-message"  class="smooth tutorial-next tutorial-second-next">
+                              Next
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blocks-plans-benefits" id="plans-benefits-block">
+              <ul class="plans-benefits">
+                <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                  <img class="img-plan" alt="dental" src="images/home/icon-dental.png">
+                  <div class="plan-wrapper">
+                    <a href="promotion.html" class="txt-plan-title">
+                      Dental
+                    </a>
+                    <a href="#">
+                      <span class="txt-short-desc">Dental advice</span>
+                    </a>
+                    <p class="txt-long-desc">
+                      How often should your child have a dental check-up?
+                    </p>
+                  </div>
+                </li>
+                <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                  <img class="img-plan" alt="dental" src="images/home/icon-travel.png" />
+                  <div class="plan-wrapper">
+                    <a href="Vendor-Dashboard.html" class="txt-plan-title">
+                      Travel
+                    </a>
+                    <a href="#">
+                      <span class="txt-short-desc">Smart traveler</span>
+                    </a>
+                    <p class="txt-long-desc">
+                      Come and join us, we can fulfill all of your travel dreams
+                    </p>
+                  </div>
+                </li>
+                <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                  <img class="img-plan" alt="dental" src="images/home/icon-fitness.png" />
+                  <div class="plan-wrapper">
+                    <span class="txt-plan-title">
+                      Fitness
+                    </span>
+                    <a href="#">
+                      <span class="txt-short-desc">Better body</span>
+                    </a>
+                    <p class="txt-long-desc">
+                      Whatever your goal is, there's a program for you
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blocks-shop">
+              <h3 class="blocks-header">Shop </h3>
+              <!--弹出框提示 第四步-->
+              <div class="myModal-tutorial" id="myModal-start-tutorial-four">
+                <div class="modal-dialog">
+                  <div class="modal-content top bottom">
+                    <a class="pd-close">
+                      <img src="images/icon/close-grey.png">
+                    </a>
+                    <i class="arrow"></i>
+                    <!--<div class="modal-header">
+                        <button type="button" class="close" 
+                               data-dismiss="modal" aria-hidden="true">
+                        &times;
+                        </button>
+                        <h5 class="modal-title" id="myModalLabel"> Warm prompt </h5>
+                      </div>-->
+                    <div class="modal-body">
+                      <h1>Shop</h1>
+                      <p class="tutorial-txt">
+                        After top-up insurance enrollment, outstanding Benefit Coin balance may be used in the Smart Benefits Shop.
+The Shop also accepts Union Pay and Alipay.
+                      </p>
+                      <div class="tutorial-footer row">
+                        <ul class="step-list col-xs-12">
+                          <li><span class="step-default step-active">1</span></li>
+                          <li><span class="step-default step-active">2</span></li>
+                          <li><span class="step-default step-active">3</span></li>
+                          <li><span class="step-default step-active">4</span></li>
+                        </ul>
+                        <div class="step-btns col-xs-12">
+                          <a class="tutorial-next tutorial-four-next">
+                            Finish
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul class="plan-shop">
+                <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                  <a href="#">
+                    <img src="images/home/bg-shop-health.png" alt="health" />
+                    <img src="images/home/icon-heartbeat.png" alt="health" />
+                    <span>Healthy</span>
+                  </a>
+                </li>
+                <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                  <a href="#">
+                    <img src="images/home/bg-shop-lifestyle.png" alt="health" />
+                    <img src="images/home/icon-lifestyle.png" alt="lifestyle" />
+                    <span>Lifestyle</span>
+                  </a>
+                </li>
+                <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                  <a href="#">
+                    <img src="images/home/bg-shop-fitness.png" alt="health" />
+                    <img src="images/home/icon-fitness-shop.png" alt="fitness" />
+                    <span>Benefits</span>
+                  </a>
+                </li>
+                <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                  <a href="#">
+                    <img src="images/home/bg-shop-other.png" alt="health" />
+                    <img src="images/home/icon-other.png" alt="other" />
+                    <span>Training</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blocks-my-handbook">
+              <h3>My Handbook</h3>
+              <div class="list-book-wrapper">
+                <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs block-need-help">
+                  <img class="img-responsive" src="images/home/img-read-book.png" alt="read-book" />
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 block-list-books">
+                  <p class="visible-xs">
+                    NEED HELP? <br>
+                    READ OUR GUIDES
+                  </p>
+                  <p class="hidden-xs">
+                    NEED HELP? READ OUR GUIDANCE
+                  </p>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 list-book-items">
+                    <i class="fa fa-file-text-o"></i>
+                    <a href="#" target="_blank" class="txt-name">
+                      Smart Benefits User Guidance
+                    </a>
+                    <div class="item-wrap">
+                      <span class="txt-type">PDF,</span>
+                      <span class="txt-weight">2.5MB</span>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 list-book-items">
+                    <i class="fa fa-file-text-o"></i>
+                    <a href="#" target="_blank" class="txt-name">
+                      Employee Benefits Policy
+                    </a>
+                    <div class="item-wrap">
+                      <span class="txt-type">PDF,</span>
+                      <span class="txt-weight">2.5MB</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End insurance-home-wrapper -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+            <img  class="img-responsive" src="images/global/logo-global-barcode.png" />
+            <br>
+            <p>
+              Find us on Wechat
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Insurance</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  Overview
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  My Inusrance
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  My Wallet
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Profile
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Shopping</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  Browse
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  My Cart
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Wishlist
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  History
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Support</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  Survey
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Video Tutorial
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  F.A.Q
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Company</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  About Mercer
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Copyright Policy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+            <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+          </div>
+          <div class="col-xs-6 col-xs-offset-6 col-sm-2 col-md-2 col-lg-2 col-c col-top visible-xs">
+            <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c visible-xs">
+            Change language:<!-- <a class="active" href="#"> EN</a> -->
+            <a href="my-home-CN.html">
+              CN
+            </a>
+          </div>
+          <br>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c">
+            <i class="fa fa-copyright"></i>
+            <span>2015 Smart benefits. All right reserved.</span>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c hidden-xs">
+            Change language:<!-- <a class="active" href="#"> EN</a> -->
+            <a href="my-home-CN.html">
+              CN
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scroll To Top -->
+  <a href="#" class="scrollup">
+    <i class="fa fa-angle-up"></i>
+  </a>
+</div>
+<!--弹出框提示-->
+<div class="modal fade myModal-tutorial" id="myModal-start-tutorial" data-toggle="modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class=" modal-content">
+      <!--<div class="modal-header">
+        <button type="button" class="close" 
+               data-dismiss="modal" aria-hidden="true">
+        &times;
+        </button>
+        <h5 class="modal-title" id="myModalLabel"> Warm prompt </h5>
+      </div>-->
+      
+      <div class="modal-body">
+        <a class="pd-close">
+          <img src="images/icon/close-grey.png">
+        </a>
+        <div class=" text-center">
+          <div class="">
+            <a>
+              <img src="images/home/logo/logo-smartbenefitsxblues.png">
+            </a>
+          </div>
+          <h1 class="tutorial-mt20">Welcome Jerry</h1>
+          <p class="tutorial-txt">
+            It is great to see you here at <span class="color-red">Smart Benefits</span> portal for the first time!
+May I show you a short tutorial?
+          </p>
+          <div class="btns-group btns-turorial">
+            <a href="#txt-imsurance-message" class="btn btn-default btn-color-add btn-start-tutorial">
+              Start tutorial
+            </a>
+          </div>
+          <a href="javascript:void(0);" class="skip-tutorial">
+            Skip tutorial
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/jquery-ui.js"></script>
+<script src="js/vendor/jquery.placeholder.min.js"></script>
+<script src="js/vendor/jquery.bxslider.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/jquery.selectBoxIt.min.js"></script>
+<script src="js/vendor/highcharts.js"></script>
+<script src="js/vendor/data.js"></script>
+<script src="js/vendor/drilldown.js"></script>
+<script src="js/vendor/jquery.mmenu.min.all.js"></script>
+<!--popover-->
+<script src="js/vendor/jquery.webui-popover.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/util.js"></script>
+<script src="js/mercer.global.js"></script>
+</body>
+</html>

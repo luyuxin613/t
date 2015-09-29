@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Notifications</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/bootstrap-select.min.css">
+<link rel="stylesheet" href="css/jquery.mmenu.all.css">
+<!--时间控件显示-->
+<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+<!--时间控件-->
+<link rel="stylesheet" href="css/main.css">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body class="lang-cn">
+<div class="overlay-full">
+</div>
+<div class="check-screen">
+  <div class="visible-xs">
+  </div>
+  <div class="visible-sm">
+  </div>
+  <div class="visible-md">
+  </div>
+  <div class="visible-lg">
+  </div>
+</div>
+<div class="col-xs-12 mb-menu">
+  <div class="mb-menu-container">
+    <div class="col-xs-12 mb-top-nav">
+      <div class="col-xs-7 mb-user-bar">
+        <img alt="avartar" src="images/demo-data/img-1.png" />
+        <span>Jerry</span>
+      </div>
+      <div class="mb-logout">
+        <a href="#">
+        注销
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-12 mb-menu-content">
+      <div class="mb-menu-inner">
+        <div class="mb-menu-list">
+          <ul>
+            <li>
+              <a href="my-hom-CN.html">
+              <img src="images/icon/icon-overview.png">
+              <span>我的主页</span>
+              </a>
+            </li>
+            <li>
+              <a href="shopping-center-CN.html">
+              <img src="images/icon/icon-shopping.png">
+              <span>福利商城</span>
+              </a>
+            </li>
+            <li>
+              <a href="my-insurance-not-enrolled-CN.html">
+              <img src="images/icon/icon-insurance.png">
+              <span>团险福利</span>
+              </a>
+            </li>
+            <li>
+              <a href="my-wallet-CN.html">
+              <img src="images/icon/icon-wallet.png">
+              <span>我的钱包</span>
+              </a>
+            </li>
+            <li>
+              <a href="account-CN.html">
+              <img src="images/icon/icon-account.png">
+              <span>个人中心</span>
+              </a>
+            </li>            
+          </ul>
+        </div>
+        <div class="mb-menu-message">
+          <div class="txt-message-box">
+            <div class="txt-title">
+              You have <span>3</span> unread messages
+            </div>
+            <div class="txt-message-content">
+              Total credits of 2000 in your account will be expired next month;
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-see-all">
+              <a href="Notifications-CN.html" >
+              查看所有信息
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mb-language-toggle">
+          <span>Language:
+          <a href="Notifications.html">
+          EN
+          </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content-wrap-body">
+  <header>
+    <div class="container-fluid">
+      <div class="row user-options">
+        <div class="max-width-wrap">
+          <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4 ads-imgs">
+            <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs logo1-wrapper">
+              <a href="my-home-CN.html">
+              <img class="img-responsive logo-1" src="images/home/logo/logo-smartbenefits.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-4 visible-xs">
+              <a href="my-home-CN.html">
+              <img class="logo-small" src="images/home/logo/logo-smartbenefit-small.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 ">
+              <a href="my-home-CN.html">
+              <img class="logo-2" src="images/home/logo/logo-ogilvy.png" />
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-2 visible-xs mb-btn-icon">
+            <a href="#" class="mb-nav-btn">
+            <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="col-sm-8 col-md-8 col-lg-8 hidden-xs top-right-section">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <ul>
+              <li>
+                <span>Language:</span>
+                <div class="languages-switch">
+                  <!-- <a  class="active" href="#">
+                                                    <span>EN</span>
+                                                </a> -->
+                  <a  href="Notifications.html">
+                  <span>EN</span>
+                  </a>
+                  <div class="seperator">
+                  </div>
+                </div>
+                
+                <!-- <img class="header-languages" src="images/icon/arrow-down.png"> -->
+                <img src="images/home/icon-message.png" alt="message" />
+                <div class="my-message">
+                  3
+                </div>
+                <div class="txt-message-box">
+                  <img src="images/home/icon-arrow-up.png" alt="" />
+                  <div class="txt-title">
+                    You have <span>3</span> unread messages
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-see-all">
+                    <a href="Notifications-CN.html" >
+                    查看所有信息
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="top-right-option">
+                <a href="account-CN.html">
+                <img class="header-user" alt="avartar" src="images/demo-data/adult_male.png" />
+                <span class="header-user-name">Jerry</span>
+                </a>
+                <a class="login-off">
+                <img src="images/icon/arrow-down.png">
+                </a>
+                <div class="login-box login-off-box top">
+                  <span class="login-bg"></span>
+                  <a href="account-CN.html" class="update-password">
+                  <i class="fa fa-edit"></i>修改密码
+                  </a>
+                  <a class="logout">
+                  <i class="fa fa-power-off"></i>注销
+                  </a>
+                </div>
+              </li>
+              <!-- <li>
+                                        
+                                      <img class="header-cart" src="images/icon/cart.png">
+                                      <span class="header-cart-items-number">0</span>
+                                    </li> -->
+            </ul>
+            <!-- <img src="images/demo-data/user-placeholder.jpg"> -->
+          </div>
+          <div class="visible-xs txt-message-bar-notification">
+            <span>3</span>
+          </div>
+        </div>
+      </div>
+      <div class="row top-nav hidden-xs">
+        <div class="max-width-wrap">
+          <div class="col-sm-12 col-md-12 col-lg-12 menu-wrapper">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <!-- <img src="images/demo-data/nav-placeholder.jpg"> -->
+            
+            <ul>
+              <li >
+                <a href="my-home-CN.html">
+                <img src="images/icon/icon-overview.png">
+                <span>我的主页</span>
+                </a>
+              </li>
+              <li class="shopping-cart" >
+                <a href="shopping-center-CN.html">
+                <img src="images/icon/icon-shopping.png">
+                <span>福利商城</span>
+                </a>
+              </li>
+              <li>
+                <a href="my-insurance-not-enrolled-CN.html">
+                <img src="images/icon/icon-insurance.png">
+                <span>团险福利</span>
+                </a>
+              </li>
+              <li>
+                <a href="my-wallet-CN.html">
+                <img src="images/icon/icon-wallet.png">
+                <span>我的钱包</span>
+                </a>
+              </li>
+              <li  style="position:relative">
+                <a href="account-CN.html">
+                <img src="images/icon/icon-account.png">
+                <span>个人中心</span>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          <!-- <div class="col-sm-4 col-md-4 col-lg-4 shopping-cart">
+                                <img src="images/icon/icon-shopping.png">
+                            </div> -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--  Notifications-s-->
+  
+  <div class="page page-Notifications" id="main">
+    <div class="max-width-wrap">
+      <div class="row notifications-box">
+        <h2 class="text-capitalize col-xs-12">信息中心 <span class="my-message"> 3 </span></h2>
+        <div class="col-xs-12">
+          <table class="table table-hover notifications-table">
+            <tr>
+              <td><span class="col-xs-12 col-sm-1">12/10/15</span>
+                <a class="col-xs-12 col-sm-11" href="#">
+                欢迎登陆佳福荟
+                </a>
+                </span></td>
+              <td><i class="fa fa-caret-down  col-xs-12 "></i></td>
+            </tr>
+            <tr>
+              <td><span class="col-xs-12 col-sm-1">12/10/15</span>
+                <a class="col-xs-12 col-sm-11" href="#">
+                请确认你的个人信息
+                </a>
+                </span></td>
+              <td><i class="fa fa-caret-down  col-xs-12 "></i></td>
+            </tr>
+            <tr>
+              <td><span class="col-xs-12 col-sm-1">12/10/15</span>
+                <a class="col-xs-12 col-sm-11" href="#">
+                请及时完成保险注册
+                </a>
+                </span></td>
+              <td><i class="fa fa-caret-down  col-xs-12 "></i></td>
+            </tr>
+          </table>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 my-wallet-page">
+            <ul class="pagination pagination-lg">
+              <li>
+                <a href="javascript:void(0);">
+                &lt;
+                </a>
+              </li>
+              <li class="active">
+                <a href="javascript:void(0);">
+                1
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);">
+                2
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);">
+                3
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);">
+                4
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);">
+                &gt;
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Notifications-e-->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+            <img  class="img-responsive" src="images/global/logo-global-barcode.png" />
+            <br>
+            <p> Find us on Wechat </p>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Insurance</h3>
+            <ul>
+              <li>
+                <a href="#">
+                Overview
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                My Inusrance
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                My Wallet
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Profile
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Shopping</h3>
+            <ul>
+              <li>
+                <a href="#">
+                Browse
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                My Cart
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Wishlist
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                History
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Support</h3>
+            <ul>
+              <li>
+                <a href="#">
+                Survey
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Video Tutorial
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                F.A.Q
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Company</h3>
+            <ul>
+              <li>
+                <a href="#">
+                About Mercer
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Copyright Policy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+            <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+          </div>
+          <div class="col-xs-6 col-xs-offset-6 col-sm-2 col-md-2 col-lg-2 col-c col-top visible-xs">
+            <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c visible-xs">
+            Change language:<!-- <a class="active" href="#"> EN</a> -->
+            <a href="Notifications.html">
+            CN
+            </a>
+          </div>
+          <br>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c">
+            <i class="fa fa-copyright"></i>
+            <span>2015 Smart benefits. All right reserved.</span>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c hidden-xs">
+            Change language:<!-- <a class="active" href="#"> EN</a> -->
+            <a href="Notifications.html">
+            CN
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scroll To Top -->
+  <a href="#" class="scrollup">
+  <i class="fa fa-angle-up"></i>
+  </a>
+</div>
+<!--弹出框-->
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/jquery-ui.js"></script>
+<script src="js/vendor/jquery.placeholder.min.js"></script>
+<script src="js/vendor/jquery.bxslider.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/bootstrap-select.min.js"></script>
+<script src="js/vendor/jquery.selectBoxIt.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/util.js"></script>
+<script src="js/vendor/jquery.mmenu.min.all.js"></script>
+<script src="js/vendor/bootstrap-datetimepicker.min.js"></script>
+<script src="js/mercer.global.js"></script>
+<script>
+$(function(){
+	/*$(".table td i").click(function(){
+		 if($(this).hasClass('fa-caret-down')) {
+			 $(this).removeClass('fa-caret-down').addClass('fa-caret-up');
+			 $(this).parents('td').prev().addClass('open');
+		 }
+		 else{
+			 $(this).addClass('fa-caret-down').removeClass('fa-caret-up');
+			 $(this).parents('td').prev().removeClass('open');
+			 }
+	});*/
+	$(".table td i").click(function(){
+		 if($(this).hasClass('fa-caret-down')) {
+			 $(this).removeClass('fa-caret-down').addClass('fa-caret-up');
+			 $(this).parents('tr').addClass('open');
+		 }
+		 else{
+			 $(this).addClass('fa-caret-down').removeClass('fa-caret-up');
+			 $(this).parents('tr').removeClass('open');
+			 }
+	});
+});
+</script>
+</body>
+</html>

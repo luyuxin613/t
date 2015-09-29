@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Vendor-Order</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!--时间控件显示-->
+<link rel="stylesheet" href="css/daterangepicker.css">
+
+<!--时间控件-->
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/bootstrap-select.min.css">
+<link rel="stylesheet" href="css/jquery.mmenu.all.css">
+<!--<link rel="stylesheet" href="css/style.css">-->
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+<body class="lang-cn">
+<div class="overlay-full">
+</div>
+<div class="check-screen">
+  <div class="visible-xs">
+  </div>
+  <div class="visible-sm">
+  </div>
+  <div class="visible-md">
+  </div>
+  <div class="visible-lg">
+  </div>
+</div>
+<div class="col-xs-12 mb-menu">
+  <div class="mb-menu-container">
+    <div class="col-xs-12 mb-top-nav">
+      <div class="col-xs-7 mb-user-bar">
+        <img alt="avartar" src="images/demo-data/img-1.png" />
+        <span>Daniel Zhang</span>
+      </div>
+      <div class="mb-logout">
+        <a href="#">
+        注销
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-12 mb-menu-content">
+      <div class="mb-menu-inner">
+        <div class="mb-menu-list">
+          <ul>
+            <li>
+              <a href="Vendor-Dashboard-CN.html">
+              <img src="images/icon/icon-dashboard.png">
+              <span>订单统计</span>
+              </a>
+            </li>            
+            <li>
+              <a href="Vendor-Profile-CN.html">
+              <img src="images/icon/icon-profile.png">
+              <span>企业账户</span>
+              </a>
+            </li>
+            <li>
+              <a href="Vendor-Product-CN.html">
+              <img src="images/icon/icon-product.png">
+              <span>产品详情</span>
+              </a>
+            </li>
+            <li class="selected">
+              <a href="Vendor-Order-CN.html">
+              <img src="images/icon/icon-info.png">
+              <span>订单详情</span>
+              </a>
+            </li>
+            <!-- <li>
+              <a href="Vendor-Document-CN.html">
+              <img src="images/icon/icon-settings.png">
+              <span>Document</span>
+              </a>
+            </li>-->
+            <li class="">
+              <a href="Vendor-Report-CN.html">
+              <img src="images/icon/icon-report.png">
+              <span>报告列表</span>
+              </a>
+            </li >
+            <!--<li class="">
+              <a href="Vendor-Coupon-CN.html">
+              <img src="images/icon/e-coupon.png">
+              <span>VB E-Coupon</span>
+              </a>
+            </li >-->
+          </ul>
+        </div>
+        <div class="mb-menu-message">
+          <div class="txt-message-box">
+            <div class="txt-title">
+              You have <span>3</span> unread messages
+            </div>
+            <div class="txt-message-content">
+              Total credits of 2000 in your account will be expired next month;
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-message-content">
+              Check the new version of benefits handbook for  2015 at your document center
+            </div>
+            <div class="txt-see-all">
+              <a href="#" >
+              See all  message
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mb-language-toggle">
+          <span>Language:
+          <a href="Vendor-Order.html">
+          EN
+          </a>
+          </span>
+          <!-- <img alt="message" src="images/home/icon-message.png">
+          <div class="my-message">
+            3
+          </div>-->
+          <div class="txt-message-box">
+            <img alt="" src="images/home/icon-arrow-up.png">
+            <div class="txt-title">
+              You have <span>3</span> unread messages
+            </div>
+            <div class="txt-message-content">
+              Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+            </div>
+            <div class="txt-message-content">
+              Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+            </div>
+            <div class="txt-message-content">
+              Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+            </div>
+            <div class="txt-see-all">
+              <a href="#">
+              See all message
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content-wrap-body">
+  <header>
+    <div class="container-fluid">
+      <div class="row user-options">
+        <div class="max-width-wrap">
+          <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4 ads-imgs">
+            <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs logo1-wrapper">
+              <a href="my-home-CN.html">
+              <img class="img-responsive logo-1" src="images/home/logo/logo-smartbenefits.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-4 visible-xs">
+              <a href="my-home-CN.html">
+              <img class="logo-small" src="images/home/logo/logo-smartbenefit-small.png" />
+              </a>
+              <div class="seperator">
+              </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 ">
+              <a href="my-home-CN.html">
+              <img class="logo-2" src="images/home/logo/logo-ogilvy.png" />
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-2 visible-xs mb-btn-icon">
+            <a href="#" class="mb-nav-btn">
+            <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="col-sm-8 col-md-8 col-lg-8 hidden-xs top-right-section">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <ul>
+              <li>
+                <span>Language:</span>
+                <div class="languages-switch">
+                  <!-- <a  class="active" href="#">
+                                                    <span>EN</span>
+                                                </a> -->
+                  <a  href="Vendor-Order.html">
+                  <span>EN</span>
+                  </a>
+                  <div class="seperator">
+                  </div>
+                </div>
+                
+                <!-- <img class="header-languages" src="images/icon/arrow-down.png"> -->
+                <!--<img src="images/home/icon-message.png" alt="message" />
+                <div class="my-message">
+                  3
+                </div>-->
+                <div class="txt-message-box">
+                  <img src="images/home/icon-arrow-up.png" alt="" />
+                  <div class="txt-title">
+                    You have <span>3</span> unread messages
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-message-content">
+                    Lorem ipsum dolor sit amet,ccnsectetur adipiscing elit eta les estibulum nec nisl ornare lacus
+                  </div>
+                  <div class="txt-see-all">
+                    <a href="#" >
+                    See all messages
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="top-right-option">
+                <a href="account-CN.html">
+                <img class="header-user" alt="avartar" src="images/demo-data/img-1.png" />
+                <span class="header-user-name">Daniel Zhang</span>
+                </a>
+                <a class="login-off">
+                <img src="images/icon/arrow-down.png">
+                </a>
+                <div class="login-box login-off-box top">
+                  <span class="login-bg"></span>
+                  <a href="account-CN.html" class="update-password">
+                  <i class="fa fa-edit"></i>修改密码
+                  </a>
+                  <a class="logout">
+                  <i class="fa fa-power-off"></i>注销
+                  </a>
+                </div>
+              </li>
+              <!-- <li>
+                                        
+                                      <img class="header-cart" src="images/icon/cart.png">
+                                      <span class="header-cart-items-number">0</span>
+                                    </li> -->
+            </ul>
+            <!-- <img src="images/demo-data/user-placeholder.jpg"> -->
+          </div>
+          <div class="visible-xs txt-message-bar-notification">
+            <span>3</span>
+          </div>
+        </div>
+      </div>
+      <div class="row top-nav hidden-xs">
+        <div class="max-width-wrap">
+          <div class="col-sm-12 col-md-12 col-lg-12 menu-wrapper1">
+            <!-- WE'LL UPDATE THIS SECTION AFTER WE HAVE FINAL DESIGN -->
+            <!-- <img src="images/demo-data/nav-placeholder.jpg"> -->
+            <ul>
+              <li>
+                <a href="Vendor-Dashboard-CN.html">
+                <img src="images/icon/icon-dashboard.png">
+                <span>订单统计</span>
+                </a>
+              </li>
+              <li>
+                <a href="Vendor-Profile-CN.html">
+                <img src="images/icon/icon-profile.png">
+                <span>企业账户</span>
+                </a>
+              </li>
+              <li>
+                <a href="Vendor-Product-CN.html">
+                <img src="images/icon/icon-product.png">
+                <span>产品详情</span>
+                </a>
+              </li>
+              <li class="active">
+                <a href="Vendor-Order-CN.html">
+                <img src="images/icon/icon-info.png">
+                <span>订单详情</span>
+                </a>
+              </li>
+              <!-- <li>
+                <a href="Vendor-Document.html">
+                <img src="images/icon/icon-settings.png">
+                <span>Document</span>
+                </a>
+              </li>-->
+              <li class="">
+                <a href="Vendor-Report-CN.html">
+                <img src="images/icon/icon-report.png">
+                <span>报告列表</span>
+                </a>
+              </li >
+              <!-- <li class="">
+              <a href="Vendor-Coupon.html">
+              <img src="images/icon/e-coupon.png">
+              <span>VB E-Coupon</span>
+              </a>
+            </li >-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="main" class="page vendor vendor-order">
+    <div class="container-fluid">
+      <div class="main-container">
+        <div class="row">
+          <div class="max-width-wrap">
+            <h1 class="col-xs-12">订单详情</h1>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <!--tab 切换-->
+              <!-- <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12 list-unstyled my-insurance-enrolled-tab">
+                <li class="active">
+                  <a class="btn" href="#OnGoing" data-toggle="tab">
+                  On-going
+                  </a>
+                </li>
+                <li>
+                  <a class="btn" href="#Completed" data-toggle="tab">
+                  Completed
+                  </a>
+                </li>
+              </ul>-->
+              <!--print pdf-->
+              
+              <!-- <div class="tab-content row">
+                <div id="OnGoing" class="active tab-pane">
+                  <!--选择-->
+              <div class="col-xs-12 data-search-box ">
+                <form class="row" role="form">
+                  <div class="form-group">
+                    <div class="col-xs-12 col-sm-1 ">
+                      <label for="firstname" class="control-label">时间</label>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 ">
+                      <!--<div class="input-append date calendar">
+                            <input size="" type="text" value="" readonly>
+                            <span class="add-on"><i class="icon-th"></i></span>
+                          </div>-->
+                      <div class="input-prepend input-group">
+                        <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                        <input type="text" style="width: 200px" name="reservation" id="reservation" class="form-control" value="03/18/2013 - 03/23/2013" />
+                      </div>
+                    </div>
+                    <!--<div class="col-xs-12 col-sm-2 ">
+                          <div class="input-append date calendar">
+                            <input size="" type="text" value="" readonly>
+                            <span class="add-on"><i class="icon-th"></i></span>
+                          </div>
+                        </div>-->
+                    <div class="col-xs-12 col-sm-3 search">
+                      <div class="input-group">
+                        <input type="text" placeholder="Search..." class="form-control">
+                        <span class="input-group-btn">
+                        <button type="button" class="btn btn-default">Go!</button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="my-wallet-table vendor-order-table">
+                  <div class="my-wallet-table vendor-order-table">
+                    <dl class="my-theader col-xs-12">
+                      <dt class="col-xs-12">
+                       <div class="span0  hidden-xs">&nbsp;</div>
+                        <div class="span1">
+                          订单号
+                        </div>
+                        <div class="span-r">
+                          <div class="visible-xs">
+                            订单详情
+                          </div>
+                          <div class="hidden-xs span2">
+                            用户ID
+                          </div>
+                          <div class="hidden-xs span3">
+                            订单时间
+                          </div>
+                          <div class="hidden-xs span4">
+                            订单详情
+                          </div>
+                          <div class="hidden-xs span5">
+                            产品名称
+                          </div>
+                          <div class="hidden-xs  span6">
+                            购买数量
+                          </div>
+                          <div class="hidden-xs  span7">
+                            状态
+                          </div>
+                          <div class="hidden-xs span8 ">
+                            操作
+                          </div>
+                          <div class="hidden-xs span9 return-text">
+                            退款申请
+                          </div>
+                        </div>
+                      </dt>
+                      <dd class="col-xs-12">
+                      <div class="span0"><div class="hidden-xs checkbox-wrapper checkbox-2 checked"><input type="checkbox" value="chk-ormon" name="chk-brand" id="chk-Ozeri" class="input-checkbox"></div></div>
+                        <div class="span1">
+                          97477
+                        </div>
+                        <div class="span-r">
+                          <div class=" span2">
+                            <span class="visible-xs-inline-block"></span>LC686
+                          </div>
+                          <div class="span3">
+                            <span class="visible-xs-inline-block"></span>05/22/2015
+                          </div>
+                          <div class="span4">
+                            <span class="visible-xs-inline-block"></span>
+                            <a data-planname="plan-1" class="view-details view-order-details" href="javascript:void(0);">
+                            查看详情<i class="fa fa-search"></i>
+                            </a>
+                          </div>
+                          <div class="span5">
+                            <span class="visible-xs-inline-block"></span>儿童口腔护理洁牙基本治疗套餐
+                          </div>
+                          <div class=" span6">
+                            <span class="visible-xs-inline-block"></span> 1
+                          </div>
+                          <div class=" span7">
+                            <span class="visible-xs-inline-block"></span>已支付
+                          </div>
+                          <div class="span8 ">
+                            <span class="visible-xs-inline-block"></span>
+                            <a class="btn-confirm" data-toggle="modal" data-target="#myModal-confirm">
+                            确认
+                            </a>
+                            <span class="visible-xs-inline-block"></span>
+                            <a class="btn-refuse" data-toggle="modal" data-target="#myModal-Refused">
+                            拒绝
+                            </a>
+                          </div>
+                          <div class="span9 return-text">
+                            <span class="visible-xs-inline-block"></span>
+                            <a class="btn-refund" data-toggle="modal" data-target="#myModal-return">
+                            申请退款
+                            </a>
+                          </div>
+                        </div>
+                      </dd>
+                      <dd class="col-xs-12">
+                        <div class="span0"><div class="hidden-xs checkbox-wrapper checkbox-2 checked"><input type="checkbox" value="chk-ormon" name="chk-brand" id="chk-Ozeri" class="input-checkbox"></div></div>
+                        <div class="span1">
+                          97477
+                        </div>
+                        <div class="span-r">
+                          <div class=" span2">
+                            <span class="visible-xs-inline-block"></span>LC686
+                          </div>
+                          <div class="span3">
+                            <span class="visible-xs-inline-block"></span>05/22/2015
+                          </div>
+                          <div class="span4">
+                            <span class="visible-xs-inline-block"></span>
+                            <a data-planname="plan-1" class="view-details view-order-details" href="javascript:void(0);">
+                            查看详情<i class="fa fa-search"></i>
+                            </a>
+                          </div>
+                          <div class="span5">
+                            <span class="visible-xs-inline-block"></span>儿童口腔护理洁牙基本治疗套餐
+                          </div>
+                          <div class=" span6">
+                            <span class="visible-xs-inline-block"></span> 1
+                          </div>
+                          <div class=" span7">
+                            <span class="visible-xs-inline-block"></span>已支付
+                          </div>
+                          <div class="span8 ">
+                            <span class="visible-xs-inline-block"></span>
+                            <a class="btn-confirm" data-toggle="modal" data-target="#myModal-confirm">
+                            确认
+                            </a>
+                            <span class="visible-xs-inline-block"></span>
+                            <a class="btn-refuse" data-toggle="modal" data-target="#myModal-Refused">
+                            拒绝
+                            </a>
+                          </div>
+                          <div class="span9 return-text">
+                            <span class="visible-xs-inline-block"></span>
+                            <a class="btn-refund" data-toggle="modal" data-target="#myModal-return">
+                            申请退款
+                            </a>
+                          </div>
+                        </div>
+                      </dd>
+                    </dl>
+                    <table class="table table-border-box" style="table-layout:fixed; display:none;">
+                      <thead>
+                        <tr>
+                          <th class="col-xs-6 col-sm-1"> <div class="col-xs-12">
+                              订单号
+                            </div>
+                          </th>
+                          <th class="col-xs-6 col-sm-11"> <div class="col-xs-12 visible-xs">
+                              订单详情
+                            </div>
+                            <div class="hidden-xs col-sm-1">
+                              用户ID
+                            </div>
+                            <div class="hidden-xs col-sm-2">
+                              订单时间
+                            </div>
+                            <div class="hidden-xs col-sm-1">
+                              订单详情
+                            </div>
+                            <div class="hidden-xs col-sm-3">
+                              产品名称
+                            </div>
+                            <div class="hidden-xs col-sm-1">
+                              购买数量
+                            </div>
+                            <div class="hidden-xs col-sm-1">
+                              订单状态
+                            </div>
+                            <div class="hidden-xs col-sm-1">
+                              订单操作
+                            </div>
+                            <div class="hidden-xs col-sm-2 return-text">
+                              退款申请
+                            </div>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="col-xs-6 col-sm-1"><div class="col-sm-2 col-xs-12">
+                              97477
+                            </div></td>
+                          <td class="col-xs-6 col-sm-11"><div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span>LC686
+                            </div>
+                            <div class="col-xs-12 col-sm-2">
+                              <span class="visible-xs-inline-block"></span>05/22/2015
+                            </div>
+                            <div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span>123456
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                              <span class="visible-xs-inline-block"></span>儿童口腔护理洁牙基本治疗套餐
+                            </div>
+                            <div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span> 1
+                            </div>
+                            <div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span>已支付
+                            </div>
+                            <div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span>
+                              <a class="btn-confirm" data-toggle="modal" data-target="#myModal-confirm">
+                              确认
+                              </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-2 return-text">
+                              <span class="visible-xs-inline-block"></span>
+                              <a class="btn-refund" data-toggle="modal" data-target="#myModal-return">
+                              申请退款
+                              </a>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td class="col-xs-6 col-sm-1"><div class="col-sm-2 col-xs-12">
+                              96747
+                            </div></td>
+                          <td class="col-xs-6 col-sm-11"><div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span>LC6833
+                            </div>
+                            <div class="col-xs-12 col-sm-2">
+                              <span class="visible-xs-inline-block"></span> 05/22/2015
+                            </div>
+                            <div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span> 123457
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                              <span class="visible-xs-inline-block"></span> 成人口腔护理基本治疗套餐
+                            </div>
+                            <div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span>1
+                            </div>
+                            <div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span>已支付
+                            </div>
+                            <div class="col-xs-12 col-sm-1">
+                              <span class="visible-xs-inline-block"></span>
+                              <a class="btn-confirm" data-toggle="modal" data-target="#myModal-confirm">
+                              确认
+                              </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-2 return-text">
+                              <span class="visible-xs-inline-block"></span>
+                              <a class="btn-refund" data-toggle="modal" data-target="#myModal-return">
+                              申请退款
+                              </a>
+                            </div>
+                            
+                            <!-- <div class="col-sm-5  hidden-xs">Refund amount:￥100  </div> --></td>
+                        </tr>
+                      </tbody>
+                    </table>
+            
+            </div>
+            
+<div style="clear:both">
+</div><div class="col-sm-5  operation">
+              <div class="col-xs-4"><div class="hidden-xs checkbox-wrapper checkbox-2 ">
+              <input type="checkbox" class="input-checkbox" >
+              </div>全选</div>
+              <div class="col-xs-4 "> <a data-target="#myModal-confirm" data-toggle="modal" class="btn-confirm">
+                            确认
+                            </a></div>
+                    <!--<a data-target="#myModal-Refused" data-toggle="modal" class="btn-refuse">
+                            拒绝
+                            </a>--></div>
+                    <ul class="pagination pagination-lg pull-right">
+                      <li>
+                        <a href="javascript:void(0);">
+                        &lt;
+                        </a>
+                      </li>
+                      <li class="active">
+                        <a href="javascript:void(0);">
+                        1
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0);">
+                        2
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0);">
+                        3
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0);">
+                        4
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0);">
+                        &gt;
+                        </a>
+                      </li>
+                    </ul>
+                   
+                  </div>
+                </div>
+              </div>
+              <div id="Completed" class=" tab-pane">
+                <!--选择-->
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 select-box ">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 select-date-month pull-right">
+                  </div>
+                </div>
+                <!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="my-wallet-table">
+                      <table class="table table-border-box" style="table-layout:fixed">
+                        <thead>
+                          <tr>
+                            <th class="col-xs-10 col-sm-6"> <div class="col-sm-2 col-xs-12">
+                                Date
+                              </div>
+                              <div class="col-sm-6 hidden-xs">
+                                Product Name
+                              </div>
+                              <div class="col-xs-12 col-sm-4">
+                                Specifications
+                              </div>
+                            </th>
+                            <th class="col-xs-2 col-sm-6"> <div class="col-xs-12 col-sm-2">
+                                Price
+                              </div>
+                              <div class="col-xs-12 col-sm-2">
+                                Quantity
+                              </div>
+                              <div class="hidden-xs col-sm-4">
+                                Order Status
+                              </div>
+                              <div class="col-sm-4  hidden-xs">
+                                Remarks
+                              </div>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="col-xs-10 col-sm-6"><div class="col-sm-2 col-xs-12">
+                                05/12/15
+                              </div>
+                              <div class="col-sm-6 hidden-xs">
+                                Children's oral care of teeth cleaning basic treatment plan
+                              </div>
+                              <div class="col-xs-12 col-sm-4">
+                                <a class="view-details view-order-details" href="javascript:void(0)">
+                                View Detail<i class="fa fa-search"></i>
+                                </a>
+                              </div></td>
+                            <td class="col-xs-2 col-sm-6"><div class="col-xs-12 col-sm-2">
+                                ￥1000
+                              </div>
+                              <div class="col-xs-12 col-sm-2">
+                                1
+                              </div>
+                              <div class="hidden-xs col-sm-4">
+                                Confirmed
+                              </div>
+                              <div class="col-sm-4  hidden-xs">
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td class="col-xs-10 col-sm-6"><div class="col-sm-2 col-xs-12">
+                                05/12/15
+                              </div>
+                              <div class="col-sm-6 hidden-xs">
+                                Adult's oral care basic treatment plan
+                              </div>
+                              <div class="col-xs-12 col-sm-4">
+                                <a class="view-details view-order-details" href="javascript:void(0)">
+                                View Detail<i class="fa fa-search"></i>
+                                </a>
+                              </div></td>
+                            <td class="col-xs-2 col-sm-6"><div class="col-xs-12 col-sm-2">
+                                ￥500
+                              </div>
+                              <div class="col-xs-12 col-sm-2">
+                                1
+                              </div>
+                              <div class="hidden-xs col-sm-4">
+                                Confirmed
+                              </div>
+                              <div class="col-sm-4  hidden-xs">
+                              </div>
+                              
+                              <!-- <div class="col-sm-5  hidden-xs">Refund amount:￥100  </div> -->
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <!-- <ul class="pagination pagination-lg pull-right">
+                        <li>
+                          <a href="javascript:void(0);">
+                          &lt;
+                          </a>
+                        </li>
+                        <li class="active">
+                          <a href="javascript:void(0);">
+                          1
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0);">
+                          2
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0);">
+                          3
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0);">
+                          4
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0);">
+                          &gt;
+                          </a>
+                        </li>
+                      </ul> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- order-details-page start-->
+  <div class="plan-details-page order-details-page">
+    <div class="container">
+      <div class="main-container">
+        <div class="row">
+          <div class="max-width-wrap">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inner-plan-details">
+              <div class="top-summary-warp-mb">
+                <div class="row section-heading">
+                  <a class="col-xs-2 col-sm-1 col-md-1 col-lg-1 pd-close" href="">
+                  <img src="images/icon/close-grey.png">
+                  </a>
+                </div>
+              </div>
+              <div class="">
+                <!--<div class="shopping-cart-header clearfix mt50 mb35">
+          <div class="col-xs-12 col-sm-4">
+            <div class="content"><span class="complete">1</span><i class="fa fa-caret-right fa-2x  complete"></i> SUBMIT ORDER</div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="content">
+              <span  class="curr">2</span><i class="fa fa-caret-right fa-2x curr"></i>DELIVERING</div>
+          </div>
+          <div class="col-xs-12 col-sm-4 ">
+            <div class="content">
+              <span>3</span><i class="fa fa-caret-right fa-2x "></i> finish</div>
+          </div>
+        </div>-->
+                <h2 class="text-capitalize col-xs-12 order-details-title col-sm-3 col-md-2">订单详情</h2>
+                <!--<div class="btns-group btns-order-details">
+                <a class="btn btn-default btn-cancel-order">
+                  取消订单
+                </a>
+              </div>-->
+                <div class="operateBtns list-inline col-xs-6 col-sm-6 col-md-4 col-lg-4 visible-lg visible-md">
+                  <a href="#" class="p_print">
+                  <img src="images/icon/print-icon.png"> 打印
+                  </a>
+                  <a href="#" class="p_export_pdf">
+                  <img src="images/icon/pdf-icon.png"> PDF下载
+                  </a>
+                </div>
+                <!--订单信息-->
+                <div class="col-xs-12 plan-wrapper">
+                  <a href="#OrderInformation" data-toggle="collapse" class="plan-header">
+                  <span class="icon"></span>
+                  <span class="txt">订单信息</span>
+                  </a>
+                  <div  id="OrderInformation" class="order-information collapse in">
+                    <table class="order-details-table">
+                      <tbody>
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">订单号</td>
+                          <td class="col-xs-8 col-sm-9 dd">123456789</td>
+                        </tr>
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">订单时间</td>
+                          <td class="col-xs-8 col-sm-9 dd">14:00, 05/12/2015</td>
+                        </tr>
+                        <!--<tr>
+                        <td class="col-xs-4 col-sm-3 dt">Order Status</td>
+                        <td class="col-xs-8 col-sm-9 dd">Not confirmed by vendor</td>
+                      </tr>-->
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">收货人</td>
+                          <td class="col-xs-8 col-sm-9 dd">Jerry Zhou |  上海 长乐路989号 中心大楼26层 200031  |  123 4567 1234</td>
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">物流方式</td>
+                          <td class="col-xs-8 col-sm-9 dd">无</td>
+                        </tr>
+                        <tr>
+                          <td class="col-xs-4 col-sm-3 dt">发票信息</td>
+                          <td class="col-xs-8 col-sm-9 dd">无</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!--Product Information-->
+                <div class="col-xs-12 plan-wrapper">
+                  <a href="#ProductInformation" data-toggle="collapse" class="plan-header">
+                  <span class="icon"></span>
+                  <span class="txt">商品信息</span>
+                  </a>
+                  <div id="ProductInformation" class="product-information collapse in">
+                    <table class="table order-details-table">
+                      <thead>
+                        <tr>
+                          <th class="col-xs-10 col-sm-11"> <div class="col-sm-8 hidden-xs">
+                              商品
+                            </div>
+                            <div class="col-sm-2  hidden-xs">
+                              单价
+                            </div>
+                            <div class="col-sm-2 hidden-xs">
+                              数量
+                            </div>
+                            <div class="col-xs-10 visible-xs">
+                              详情
+                            </div>
+                          </th>
+                          <th class="col-xs-2 col-sm-1 text-right"><div class="col-xs-12">
+                              金额
+                            </div></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td  class="col-xs-8 col-sm-11"><div class="col-sm-2 hidden-xs">
+                              <img src="images/sc01.jpg">
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                              <p> 儿童口腔护理洁牙基本治疗套餐 </p>
+                              <!--<p>
+                              Color: White
+                            </p>
+                            <p>
+                              Spec: Spec 1
+                            </p>-->
+                            </div>
+                            <p class="col-xs-12 col-sm-2">
+                              <span class="visible-xs-inline-block">单价：</span> ￥1000 </p>
+                            <p class="col-xs-12 col-sm-2">
+                              <span class="visible-xs-inline-block">数量：</span> 1 </p></td>
+                          <td class="col-xs-4 col-sm-1 text-right"><div class="col-xs-12">
+                              ￥1000
+                            </div></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!--支付信息-->
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTAINER SECTION -->
+    </div>
+  </div>
+  <!-- order-details-page end-->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+            <img  class="img-responsive" src="images/global/logo-global-barcode.png" />
+            <br>
+            <p> Find us on Wechat </p>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Insurance</h3>
+            <ul>
+              <li>
+                <a href="#">
+                Overview
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                My Inusrance
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                My Wallet
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Profile
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Shopping</h3>
+            <ul>
+              <li>
+                <a href="#">
+                Browse
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                My Cart
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Wishlist
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                History
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Support</h3>
+            <ul>
+              <li>
+                <a href="#">
+                Survey
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Video Tutorial
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                F.A.Q
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-c">
+            <h3>Company</h3>
+            <ul>
+              <li>
+                <a href="#">
+                About Mercer
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Copyright Policy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-c hidden-xs">
+            <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+          </div>
+          <div class="col-xs-6 col-xs-offset-6 col-sm-2 col-md-2 col-lg-2 col-c col-top visible-xs">
+            <img class="img-responsive" src="images/global/logo-global-footer-right.png" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="max-width-wrap">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c visible-xs">
+            Change language:<!-- <a class="active" href="#"> EN</a> -->
+            <a href="Vendor-Order.html">
+            EN
+            </a>
+          </div>
+          <br>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c">
+            <i class="fa fa-copyright"></i>
+            <span>2015 Smart benefits. All right reserved.</span>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 col-c hidden-xs">
+            Change language:<!-- <a class="active" href="#"> EN</a> -->
+            <a href="Vendor-Order.html">
+            EN
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scroll To Top -->
+  <a href="#" class="scrollup">
+  <i class="fa fa-angle-up"></i>
+  </a>
+  <!-- 模态框 -->
+  <div class="modal fade" id="myModal-return" data-toggle="modal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class=" modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" 
+               data-dismiss="modal" aria-hidden="true">
+          &times;
+          </button>
+          <h1 class="modal-title" id="myModalLabel"> 退款信息 </h1>
+        </div>
+        <div class="modal-body ">
+          <div class="form-group row">
+            <div class="col-xs-12 col-sm-4">
+              <label for="number">退款金额</label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <input type="text" class="form-control" id="number" 
+                 placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-xs-12 col-sm-4">
+              <label for="number">退款备注</label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <input type="text" class="form-control" id="number" 
+                 placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class=" btns-group btns-refund col-xs-12">
+              <a class="btn btn-default btn-cancel-amount">
+              取消
+              </a>
+              <a class="btn btn-default btn-confirm-amount">
+              确认
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 模态框 -->
+  <div class="modal fade" id="myModal-confirm" data-toggle="modal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class=" modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" 
+               data-dismiss="modal" aria-hidden="true">
+          &times;
+          </button>
+          <h1 class="modal-title" id="myModalLabel"> 订单操作 </h1>
+        </div>
+        <div class="modal-body ">
+          <div class="form-group row">
+            <div class="col-xs-12 col-sm-4">
+              <label for="number">确认备注</label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <input type="text" class="form-control" id="number" 
+                 placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class=" btns-group btns-refund col-xs-12">
+              <a class="btn btn-default btn-cancel-amount">
+              取消
+              </a>
+              <a class="btn btn-default btn-confirm-amount">
+              确认
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 拒绝模态框 -->
+  <div class="modal fade" id="myModal-Refused" data-toggle="modal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class=" modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" 
+               data-dismiss="modal" aria-hidden="true">
+          &times;
+          </button>
+          <h1 class="modal-title" id="myModalLabel"> 订单操作 </h1>
+        </div>
+        <div class="modal-body ">
+          <div class="form-group row">
+            <div class="col-xs-12 col-sm-4">
+              <label for="number">拒绝理由</label>
+            </div>
+            <div class="col-xs-12 col-sm-6 select-box income-select-box">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 select-date-year">
+                <select class="selectpicker" data-style="btn-default">
+                  <option>缺货</option>
+                  <option>其他</option>
+                </select>
+              </div>
+            </div>
+            <!--<div class="col-xs-12 col-sm-6">
+            <input type="text" class="form-control" id="number" 
+                 placeholder="">
+          </div>
+-->
+          </div>
+          <div class="form-group row">
+            <div class=" btns-group btns-refund col-xs-12">
+              <a class="btn btn-default btn-cancel-amount">
+              取消
+              </a>
+              <a class="btn btn-default btn-confirm-amount">
+              拒绝
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/jquery-ui.js"></script>
+<script src="js/vendor/jquery.placeholder.min.js"></script>
+<script src="js/vendor/jquery.bxslider.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/bootstrap-select.min.js"></script>
+<script src="js/vendor/jquery.selectBoxIt.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/util.js"></script>
+<script src="js/date-time/moment.js"></script>
+<script src="js/date-time/daterangepicker.js"></script>
+<script src="js/vendor/jquery.mmenu.min.all.js"></script>
+<script src="js/mercer.global.js"></script>
+<script src="js/highcharts.js"></script>
+<script src="js/analytics.js"></script>
+</body>
+</html>
